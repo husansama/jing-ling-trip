@@ -23,9 +23,9 @@
         <span>一起去港澳</span>
       </a>
       <nav aria-label="页面导航">
-        <a href="#route">路线</a>
-        <a href="#days">行程</a>
-        <a href="#tips">出行贴士</a>
+        <button class="top-tab" type="button" data-open-view="itinerary">行程</button>
+        <button class="top-tab" type="button" data-open-view="hongkong">香港</button>
+        <button class="top-tab" type="button" data-open-view="prep">出行贴士</button>
       </nav>
     </header>
 
@@ -73,18 +73,15 @@
         </article>
       </section>
 
-      <nav class="guide-nav wrapper" aria-label="攻略快速导航">
-        <a href="#days">每日行程</a>
-        <a href="#mustgo">必去景点</a>
-        <a href="#disney">迪士尼攻略</a>
-        <a href="#food">美食</a>
-        <a href="#stay">住宿</a>
-        <a href="#transport">交通</a>
-        <a href="#backup">备选方案</a>
-        <a href="#packing">准备清单</a>
+      <nav class="guide-nav wrapper" id="guide-tabs" aria-label="攻略内容页签" role="tablist">
+        <button class="active" type="button" data-view="itinerary" role="tab" aria-selected="true">行程总览</button>
+        <button type="button" data-view="hongkong" role="tab" aria-selected="false">香港攻略</button>
+        <button type="button" data-view="macao" role="tab" aria-selected="false">澳门攻略</button>
+        <button type="button" data-view="foodstay" role="tab" aria-selected="false">吃住美食</button>
+        <button type="button" data-view="prep" role="tab" aria-selected="false">交通准备</button>
       </nav>
 
-      <section class="wrapper section-intro" id="route">
+      <section class="wrapper section-intro guide-panel" id="route" data-panel="itinerary">
         <p class="eyebrow">为什么这样走</p>
         <div class="split-heading">
           <h2>不赶路，<br />才有真正的假期。</h2>
@@ -103,7 +100,7 @@
         </div>
       </section>
 
-      <section class="featured-section" id="days">
+      <section class="featured-section guide-panel" id="days" data-panel="itinerary">
         <div class="wrapper">
           <p class="eyebrow light">旅程展开</p>
           <div class="split-heading light-heading">
@@ -123,7 +120,7 @@
         </div>
       </section>
 
-      <section class="wrapper must-go" id="mustgo">
+      <section class="wrapper must-go guide-panel" id="mustgo" data-panel="hongkong">
         <div class="section-head-row">
           <div>
             <p class="eyebrow">必须保留的两站</p>
@@ -155,7 +152,19 @@
         </div>
       </section>
 
-      <section class="disney-guide" id="disney">
+      <section class="wrapper hk-routes guide-panel" id="hk-routes" data-panel="hongkong">
+        <p class="eyebrow">香港路线库 · 按体力选择</p>
+        <h2>香港不靠打卡多，<br />靠路线走得顺。</h2>
+        <p class="route-lead">本次固定安排“港大线＋维港线＋迪士尼线”。其余路线作为天气、体力和兴趣不同的可替换选项，避免同一天跨港岛、九龙来回折返。</p>
+        <div class="city-route-grid">
+          <article class="recommended"><span>本次 Day 3</span><h3>港大 · 中环 · 维港线</h3><p>香港大学 → 中环码头/街景 → 天星小轮 → 尖沙咀。校园与城市天际线在同一条动线上，适合第一次带孩子认识香港。</p><strong>强度：低–中 · 约 7 小时含午休</strong></article>
+          <article class="recommended"><span>本次 Day 2</span><h3>尖沙咀 · 维港夜景线</h3><p>钟楼 → 星光大道 → 海旁散步 → 天星小轮。抵港日全程平缓，推车友好，晚餐后可随时回酒店。</p><strong>强度：低 · 约 3–4 小时</strong></article>
+          <article><span>天气好备选</span><h3>中环 · 山顶线</h3><p>中环街景/半山扶梯 → 山顶。只在晴天、孩子午休充足时加；国庆排队长，不与港大安排在同一天。</p><strong>强度：中–高 · 需预留排队</strong></article>
+          <article><span>亲子雨天备选</span><h3>西九龙室内线</h3><p>西九文化区周边商场、亲子室内活动、尖沙咀海旁。适合下雨、暑热或幼儿状态一般的午后。</p><strong>强度：低 · 可随时删减</strong></article>
+        </div>
+      </section>
+
+      <section class="disney-guide guide-panel" id="disney" data-panel="hongkong">
         <div class="wrapper">
           <p class="eyebrow light">香港迪士尼 · 独立攻略</p>
           <div class="split-heading light-heading">
@@ -172,7 +181,19 @@
         </div>
       </section>
 
-      <section class="food-section" id="food">
+      <section class="macao-routes guide-panel" id="macao" data-panel="macao">
+        <div class="wrapper">
+          <p class="eyebrow light">澳门路线库</p>
+          <div class="split-heading light-heading"><h2>老城半日，<br />路氹半日。</h2><p>澳门最容易累在“老城石板路＋酒店群步行”叠加。把半岛、路氹和氹仔旧城分成三个独立片区，才能随时收缩。</p></div>
+          <div class="macao-route-grid">
+            <article><span>本次 Day 5</span><h3>路氹室内恢复线</h3><p>氹仔码头 → 酒店 → 威尼斯人/巴黎人/伦敦人。以午休和室内体验为主，解决抵达日疲劳。</p></article>
+            <article><span>本次 Day 6 上午</span><h3>澳门半岛世遗线</h3><p>大三巴 → 恋爱巷 → 议事亭前地。早到、早走，11:45 前开始吃午饭，避免人潮和暴晒。</p></article>
+            <article><span>本次 Day 6 傍晚</span><h3>氹仔旧城美食线</h3><p>官也街周边 → 晚餐 → 回路氹。只安排一顿正餐和少量小吃，不把手信店当任务清单。</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="food-section guide-panel" id="food" data-panel="foodstay">
         <div class="wrapper">
           <div class="section-head-row">
             <div>
@@ -190,7 +211,7 @@
         </div>
       </section>
 
-      <section class="wrapper stay-section" id="stay">
+      <section class="wrapper stay-section guide-panel" id="stay" data-panel="foodstay">
         <div class="stay-intro">
           <p class="eyebrow">住宿建议</p>
           <h2>少换一次酒店，<br />少累一整家人。</h2>
@@ -202,7 +223,7 @@
         </div>
       </section>
 
-      <section class="transport-section" id="transport">
+      <section class="transport-section guide-panel" id="transport" data-panel="prep">
         <div class="wrapper">
           <p class="eyebrow light">交通攻略</p>
           <div class="split-heading light-heading">
@@ -218,7 +239,7 @@
         </div>
       </section>
 
-      <section class="wrapper essentials" id="tips">
+      <section class="wrapper essentials guide-panel" id="tips" data-panel="prep">
         <div class="essential-heading">
           <p class="eyebrow">实用准备</p>
           <h2>把麻烦留在<br />出发之前。</h2>
@@ -247,7 +268,7 @@
         </div>
       </section>
 
-      <section class="backup-section" id="backup">
+      <section class="backup-section guide-panel" id="backup" data-panel="prep">
         <div class="wrapper">
           <p class="eyebrow">Plan B</p>
           <h2>下雨、人多、孩子累，<br />都不算行程失败。</h2>
@@ -260,7 +281,7 @@
         </div>
       </section>
 
-      <section class="packing" id="packing">
+      <section class="packing guide-panel" id="packing" data-panel="prep">
         <div class="wrapper packing-inner">
           <div>
             <p class="eyebrow">出发前一周</p>
@@ -275,7 +296,7 @@
         </div>
       </section>
 
-      <section class="wrapper sources">
+      <section class="wrapper sources guide-panel" data-panel="prep">
         <p class="eyebrow">出行前复核</p>
         <h2>官方信息入口</h2>
         <div class="source-links">

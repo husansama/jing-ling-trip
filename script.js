@@ -10,6 +10,9 @@ const days = {
 
 const card = document.querySelector("#day-card");
 const tabs = document.querySelectorAll(".day-tab");
+const guideTabs = document.querySelectorAll(".guide-nav [data-view]");
+const guidePanels = document.querySelectorAll(".guide-panel");
+const topTabs = document.querySelectorAll("[data-open-view]");
 
 /* 高德 URI API 无需网站自建地图 Key；移动端会尝试唤起高德 App。 */
 function amapLink(place) {
@@ -31,6 +34,18 @@ function renderDay(day) {
     <section class="timeline"><p class="timeline-title">P 人执行时间线 · 点击每项右侧可在高德地图打开地点</p><div class="timeline-list">${timeline}</div></section>`;
 }
 
+/* 手机上只保留当前主题内容，避免用户为找信息反复长距离滚动。 */
+function switchGuide(view) {
+  guideTabs.forEach((tab) => {
+    const selected = tab.dataset.view === view;
+    tab.classList.toggle("active", selected);
+    tab.setAttribute("aria-selected", String(selected));
+  });
+  guidePanels.forEach((panel) => {
+    panel.hidden = panel.dataset.panel !== view;
+  });
+}
+
 /* 日期切换不跳转页面，方便手机上快速比较每天强度与交通换乘。 */
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
@@ -41,4 +56,16 @@ tabs.forEach((tab) => {
   });
 });
 
+guideTabs.forEach((tab) => {
+  tab.addEventListener("click", () => switchGuide(tab.dataset.view));
+});
+
+topTabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    switchGuide(tab.dataset.openView);
+    document.querySelector("#guide-tabs").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+});
+
 renderDay(1);
+switchGuide("itinerary");
