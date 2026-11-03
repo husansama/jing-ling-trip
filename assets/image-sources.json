@@ -1,0 +1,266 @@
+[
+  {
+    "name": "erhai",
+    "file": "assets/images/erhai.webp",
+    "source": "https://www.trip.com/blog/dali-itinerary-three-days/",
+    "title": "洱海与苍山",
+    "credit": "Trip.com",
+    "size": [
+      1600,
+      708
+    ]
+  },
+  {
+    "name": "baisha",
+    "file": "assets/images/baisha.webp",
+    "source": "https://k.sina.cn/article_6799021963_19540d78b00100s6f7.html",
+    "title": "白沙古镇与玉龙雪山",
+    "credit": "新浪旅游",
+    "size": [
+      1600,
+      1066
+    ]
+  },
+  {
+    "name": "shaxi",
+    "file": "assets/images/shaxi.webp",
+    "source": "https://sg.trip.com/moments/detail/jianchuan-2215-134850704/",
+    "title": "沙溪玉津桥",
+    "credit": "Trip.com",
+    "size": [
+      1280,
+      960
+    ]
+  },
+  {
+    "name": "blue-moon",
+    "file": "assets/images/blue-moon.webp",
+    "source": "https://www.ly.com/scenery/BookSceneryTicket_18844.html",
+    "title": "蓝月谷",
+    "credit": "同程旅行",
+    "size": [
+      800,
+      475
+    ]
+  },
+  {
+    "name": "palms",
+    "file": "assets/images/palms.webp",
+    "source": "https://travel.qunar.com/p-pl5973376",
+    "title": "西双版纳热带植物园",
+    "credit": "去哪儿旅行",
+    "size": [
+      640,
+      480
+    ]
+  },
+  {
+    "name": "night-market",
+    "file": "assets/images/night-market.webp",
+    "source": "https://www.sohu.com/a/481537712_111399",
+    "title": "星光夜市",
+    "credit": "搜狐旅游",
+    "size": [
+      640,
+      427
+    ]
+  },
+  {
+    "name": "dali-town",
+    "file": "assets/images/dali-town.webp",
+    "source": "https://tw.trip.com/moments/detail/dali-1445616-138281165/",
+    "title": "大理古城街巷",
+    "credit": "Trip.com",
+    "size": [
+      640,
+      853
+    ]
+  },
+  {
+    "name": "lijiang-town",
+    "file": "assets/images/lijiang-town.webp",
+    "source": "https://www.sonnagaya.com/entry/20140212/1392165988",
+    "title": "丽江古城街巷",
+    "credit": "sonnagaya.com",
+    "size": [
+      600,
+      800
+    ]
+  },
+  {
+    "name": "manting",
+    "file": "assets/images/manting.webp",
+    "source": "https://hk.trip.com/moments/detail/jinghong-2154-126210086/",
+    "title": "曼听御花园",
+    "credit": "Trip.com",
+    "size": [
+      1200,
+      1200
+    ]
+  },
+  {
+    "name": "wenbi",
+    "file": "assets/images/wenbi.webp",
+    "source": "https://hk.trip.com/moments/detail/dali-city-1445616-119971213/",
+    "title": "海东文笔村湖岸",
+    "credit": "Trip.com",
+    "size": [
+      640,
+      866
+    ]
+  },
+  {
+    "name": "zhoucheng",
+    "file": "assets/images/zhoucheng.webp",
+    "source": "https://www.visityunnanchina.com/experiences-shopping-handicrafts/art-national-intangible-cultural-heritage/bai-tie-dyeing",
+    "title": "周城白族扎染",
+    "credit": "Visit Yunnan",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "name": "jizhao",
+    "file": "assets/images/jizhao.webp",
+    "source": "https://you.ctrip.com/sight/dalicity1445616/1712848.html",
+    "title": "寂照庵院落",
+    "credit": "携程",
+    "size": [
+      640,
+      480
+    ]
+  },
+  {
+    "name": "three-pagodas",
+    "file": "assets/images/three-pagodas.webp",
+    "source": "https://dali.yunnan.cn/system/2024/08/26/033201204.shtml",
+    "title": "崇圣寺三塔",
+    "credit": "云南网",
+    "size": [
+      1080,
+      720
+    ]
+  },
+  {
+    "name": "weishan",
+    "file": "assets/images/weishan.webp",
+    "source": "https://gs.ctrip.com/html5/you/sight/weishan2211/1478292.html",
+    "title": "巍山古城拱辰楼",
+    "credit": "携程",
+    "size": [
+      750,
+      1000
+    ]
+  },
+  {
+    "name": "yuhu",
+    "file": "assets/images/yuhu.webp",
+    "source": "https://go.ly.com/travels/1047949.html",
+    "title": "玉湖村石头院落",
+    "credit": "同程旅行",
+    "size": [
+      750,
+      500
+    ]
+  },
+  {
+    "name": "black-dragon",
+    "file": "assets/images/black-dragon.webp",
+    "source": "https://www.passingcloud.cn/bxys/index.php?act=news_detail&con=pc&id=103",
+    "title": "黑龙潭园林与雪山",
+    "credit": "Passingcloud",
+    "size": [
+      640,
+      480
+    ]
+  },
+  {
+    "name": "mufu",
+    "file": "assets/images/mufu.webp",
+    "source": "https://you.ctrip.com/sight/lijiang32/12325.html",
+    "title": "丽江木府",
+    "credit": "携程",
+    "size": [
+      750,
+      1000
+    ]
+  },
+  {
+    "name": "zhongyi",
+    "file": "assets/images/zhongyi.webp",
+    "source": "https://www.lijiang.cn/article/145146.html",
+    "title": "忠义市场早市",
+    "credit": "丽江网",
+    "size": [
+      1000,
+      666
+    ]
+  },
+  {
+    "name": "yunshanping",
+    "file": "assets/images/yunshanping.webp",
+    "source": "https://you.ctrip.com/sight/yulong1446279/12467.html",
+    "title": "云杉坪草甸与森林",
+    "credit": "携程",
+    "size": [
+      640,
+      480
+    ]
+  },
+  {
+    "name": "lugu",
+    "file": "assets/images/lugu.webp",
+    "source": "https://dp.pconline.com.cn/dphoto/3540876.html",
+    "title": "泸沽湖里格半岛风景",
+    "credit": "太平洋摄影部落",
+    "size": [
+      1200,
+      798
+    ]
+  },
+  {
+    "name": "tiger-gorge",
+    "file": "assets/images/tiger-gorge.webp",
+    "source": "https://gs.ctrip.com/html5/you/sight/shangri-la106/69342535.html",
+    "title": "上虎跳峡观景台",
+    "credit": "携程",
+    "size": [
+      750,
+      562
+    ]
+  },
+  {
+    "name": "fengyangyi",
+    "file": "assets/images/fengyangyi.webp",
+    "source": "https://www.sohu.com/a/775077697_117402",
+    "title": "凤阳邑茶马古道",
+    "credit": "搜狐旅游",
+    "size": [
+      1200,
+      800
+    ]
+  },
+  {
+    "name": "cangshan",
+    "file": "assets/images/cangshan.webp",
+    "source": "https://sg.trip.com/travel-guide/attraction/dali-city/gantong-ropeway-24565494/",
+    "title": "苍山感通索道",
+    "credit": "Trip.com",
+    "size": [
+      1200,
+      900
+    ]
+  },
+  {
+    "name": "lion-hill",
+    "file": "assets/images/lion-hill.webp",
+    "source": "https://www.chengduprivatetour.com/tours/show/5-days-enchanting-lijiang-and-shangri-la-tours-to-yunnan-province.htm",
+    "title": "丽江狮子山与古城全景",
+    "credit": "Chengdu Private Tour",
+    "size": [
+      1200,
+      675
+    ]
+  }
+]

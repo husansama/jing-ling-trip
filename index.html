@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="两家八口的国庆港澳亲子旅行计划：深圳、香港、澳门，兼顾迪士尼、香港大学与幼儿午休。"
+      content="三位女生的云南旅行备选方案：2026 年 11 月 5–9 日，丽江大理联游及大理、丽江、西双版纳单城方案，含每日交通、天气、妆造与拍照安排。"
     />
-    <title>一起去港澳 · 国庆亲子旅行计划</title>
+    <title>一起去云南 · 三个人的慢旅行</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Serif+SC:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -19,306 +19,292 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="回到顶部">
-        <span class="brand-mark">港</span>
-        <span>港澳亲子行程</span>
+        <span class="brand-mark">滇</span>
+        <span class="brand-copy">云南慢旅行<small>YUNNAN · SLOW JOURNAL</small></span>
       </a>
       <nav aria-label="页面导航">
-        <button class="top-tab" type="button" data-open-view="itinerary">行程</button>
-        <button class="top-tab" type="button" data-open-view="hongkong">香港</button>
-        <button class="top-tab" type="button" data-open-view="prep">出行贴士</button>
+        <button class="top-tab" type="button" data-open-view="combo">丽江＋大理联游</button>
+        <button class="top-tab" type="button" data-open-view="dali">大理行程</button>
+        <button class="top-tab" type="button" data-open-view="lijiang">丽江行程</button>
+        <button class="top-tab" type="button" data-open-view="banna">西双版纳行程</button>
       </nav>
     </header>
 
     <main id="top">
-      <section class="hero">
+      <section class="hero wrapper" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">2026 年国庆 · 两家人同行</p>
-          <h1>深圳 · 香港 · 澳门<br /><em>7 天亲子行程</em></h1>
-          <p class="hero-text">
-            8 人出行：4 位成人、2 位学龄儿童、2 位幼儿。每天只安排一个重点，留出午休和机动时间。
-          </p>
+          <p class="eyebrow">A LITTLE ESCAPE TO YUNNAN</p>
+          <p class="hero-date"><span></span> 2026.11.05 — 11.09 · 五天四晚</p>
+          <h1 id="hero-title">去云南，<br />把日子过<em>慢一点。</em></h1>
+          <p class="hero-text">三个女生，从三座城市出发。<br />把相聚的时间，留给喜欢的风景、<br class="desktop-break" />一组好看的合照，和不赶时间的下午。</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#days">每日安排 <span>↓</span></a>
-            <a class="button button-quiet" href="#packing">出发清单</a>
+            <a class="button button-primary" href="#guide-tabs">挑一段喜欢的旅程 <span>↗</span></a>
+            <span class="hero-origin">郑州 / 福州 / 宁波 出发</span>
           </div>
+          <p class="hero-footnote">洱海的风 · 雪山下的古镇 · 热带的绿</p>
         </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="sun"></div>
-          <div class="moon"></div>
-          <div class="skyline skyline-back"></div>
-          <div class="skyline skyline-front"></div>
-          <div class="ferry"><i></i><b></b><span></span></div>
-          <div class="wave wave-one"></div>
-          <div class="wave wave-two"></div>
-          <p>HONG KONG · MACAO</p>
+        <div class="hero-collage" aria-label="云南旅行风景拼贴">
+          <figure class="hero-photo hero-photo-main"><img src="assets/images/erhai.webp" width="1600" height="708" alt="苍山与洱海水面的倒影" fetchpriority="high" /><figcaption><span>01 / DALI</span> 在洱海边，把时间放慢。</figcaption></figure>
+          <figure class="hero-photo hero-photo-small"><img src="assets/images/baisha.webp" width="1600" height="1066" alt="白沙古镇屋檐后的玉龙雪山" /><figcaption>LIJIANG / 雪山来信</figcaption></figure>
+          <figure class="hero-photo hero-photo-green"><img src="assets/images/palms.webp" width="640" height="480" alt="西双版纳植物园的棕榈和池塘" /><figcaption>BANNA / 热带日记</figcaption></figure>
+          <div class="travel-stamp" aria-hidden="true"><span>3 GIRLS</span><strong>去有风的地方</strong><span>5 DAYS · SLOW TRIP</span></div>
         </div>
       </section>
 
       <section class="trip-facts wrapper" aria-label="旅行概览">
         <article>
-          <span class="fact-icon">◎</span>
-          <div><small>日期</small><strong>10 月 1–7 日</strong></div>
+          <span class="fact-icon">01</span>
+          <div><small>日期</small><strong>11 月 5–9 日 · 5 天 4 晚</strong></div>
         </article>
         <article>
-          <span class="fact-icon">8</span>
-          <div><small>成员</small><strong>两家 8 人</strong></div>
+          <span class="fact-icon">02</span>
+          <div><small>成员</small><strong>三位女生 · 三地出发</strong></div>
         </article>
         <article>
-          <span class="fact-icon">↔</span>
-          <div><small>旅行动线</small><strong>深圳 · 香港 · 澳门</strong></div>
+          <span class="fact-icon">03</span>
+          <div><small>备选目的地</small><strong>联游 / 大理 / 丽江 / 版纳</strong></div>
         </article>
         <article>
-          <span class="fact-icon">☼</span>
-          <div><small>原则</small><strong>每日一个重点</strong></div>
+          <span class="fact-icon">04</span>
+          <div><small>旅行节奏</small><strong>妆照 · 古镇 · 慢游</strong></div>
         </article>
       </section>
 
-      <nav class="guide-nav wrapper" id="guide-tabs" aria-label="攻略内容页签" role="tablist">
-        <button class="active" type="button" data-view="itinerary" role="tab" aria-selected="true">行程总览</button>
-        <button type="button" data-view="hongkong" role="tab" aria-selected="false">香港攻略</button>
-        <button type="button" data-view="macao" role="tab" aria-selected="false">澳门攻略</button>
-        <button type="button" data-view="foodstay" role="tab" aria-selected="false">吃住美食</button>
-        <button type="button" data-view="prep" role="tab" aria-selected="false">交通准备</button>
+      <section class="destination-intro wrapper" aria-labelledby="destination-title">
+        <div><p class="eyebrow">CHOOSE YOUR KIND OF SLOW</p><h2 id="destination-title">四种过法，选你心动的云南。</h2></div>
+        <p>四套独立方案，均按 5 天规划。<br />点开一张明信片，看看每天怎么过。</p>
+      </section>
+      <nav class="guide-nav wrapper" id="guide-tabs" aria-label="选择云南旅行方案" role="tablist">
+        <button class="destination-tab active" id="combo-tab" type="button" data-view="combo" role="tab" aria-controls="combo" aria-selected="true">
+          <span class="destination-image destination-pair"><img src="assets/images/lugu.webp" width="1200" height="798" alt="泸沽湖里格半岛湖景" loading="lazy" /><img src="assets/images/erhai.webp" width="1600" height="708" alt="大理洱海与苍山" loading="lazy" /><span class="destination-number">00 / LIJIANG + DALI</span><span class="selected-label">正在阅读 ↗</span></span>
+          <span class="destination-copy"><span class="destination-title">丽江＋大理<span>先湖泊，再慢游</span></span><span class="destination-description">泸沽湖两日 · 洱海 · 沙溪候补</span><span class="destination-tags"><span>联游方案</span><span>含天气穿衣</span></span></span>
+        </button>
+        <button class="destination-tab" id="dali-tab" type="button" data-view="dali" role="tab" aria-controls="dali" aria-selected="false">
+          <span class="destination-image"><img src="assets/images/erhai.webp" width="1600" height="708" alt="大理洱海与苍山" loading="lazy" /><span class="destination-number">01 / DALI</span><span class="selected-label">正在阅读 ↗</span></span>
+          <span class="destination-copy"><span class="destination-title">大理<span>湖边慢生活</span></span><span class="destination-description">古城妆照 · 洱海下午茶 · 沙溪古镇</span><span class="destination-tags"><span>湖景与古镇</span><span>四晚连住</span></span></span>
+        </button>
+        <button class="destination-tab" id="lijiang-tab" type="button" data-view="lijiang" role="tab" aria-controls="lijiang" aria-selected="false">
+          <span class="destination-image"><img src="assets/images/baisha.webp" width="1600" height="1066" alt="丽江白沙古镇与雪山" loading="lazy" /><span class="destination-number">02 / LIJIANG</span><span class="selected-label">正在阅读 ↗</span></span>
+          <span class="destination-copy"><span class="destination-title">丽江<span>雪山下的旧时光</span></span><span class="destination-description">民族风妆照 · 白沙慢逛 · 蓝月谷</span><span class="destination-tags"><span>古镇与雪山</span><span>四晚连住</span></span></span>
+        </button>
+        <button class="destination-tab" id="banna-tab" type="button" data-view="banna" role="tab" aria-controls="banna" aria-selected="false">
+          <span class="destination-image"><img src="assets/images/manting.webp" width="1200" height="1200" alt="西双版纳曼听御花园的金色建筑与绿植" loading="lazy" /><span class="destination-number">03 / BANNA</span><span class="selected-label">正在阅读 ↗</span></span>
+          <span class="destination-copy"><span class="destination-title">西双版纳<span>一场热带假日</span></span><span class="destination-description">傣装闺蜜照 · 园林慢游 · 热带植物</span><span class="destination-tags"><span>傣装与热带风</span><span>四晚连住</span></span></span>
+        </button>
       </nav>
 
-      <section class="wrapper section-intro guide-panel" id="route" data-panel="itinerary">
-        <p class="eyebrow">行程原则</p>
+      <section class="wrapper dali-guide guide-panel" id="combo" data-panel="combo" role="tabpanel" aria-labelledby="combo-tab">
+        <p class="eyebrow">丽江＋大理联游 · 11 月 5–9 日 · 含泸沽湖两日一晚</p>
+        <div class="split-heading"><h2>先到湖边住一晚，<br />再去大理吹吹风。</h2><p>三位女生，从郑州、福州、宁波出发。主线：丽江会合 → 泸沽湖 → 大理洱海 → 返程。沙溪列为延长一天的候补；联游转场比单城更多，三个完整白天的玩法不直接套用。</p></div>
+        <aside class="dali-notice"><strong>先确认机票与接送，再锁定住宿</strong><p>优先核对“丽江进、大理出”；若须经昆明，两端转场都要重新计算。三地直飞、动车、包车和景区服务目前未预订，以下时间均为规划预算。天气表是 2026 年 11 月 3 日查询快照，非实时预报，出发前必须更新。</p></aside>
+        <div class="combo-route" aria-label="五天联游与住宿分配"><div><span>11.05</span><strong>丽江</strong><small>会合 · 住 1 晚</small></div><b aria-hidden="true">→</b><div><span>11.06–07</span><strong>泸沽湖</strong><small>两日一晚 · 午后转场</small></div><b aria-hidden="true">→</b><div><span>11.07–09</span><strong>大理</strong><small>洱海 · 住 2 晚</small></div><b aria-hidden="true">→</b><div><span>11.09</span><strong>返程</strong><small>晚班机需核实</small></div></div>
+        <nav class="dali-day-links" aria-label="联游内容导航"><a href="#combo-day-1">11.05 · 丽江会合</a><a href="#combo-day-2">11.06 · 去泸沽湖</a><a href="#combo-day-3">11.07 · 湖边到大理</a><a href="#combo-day-4">11.08 · 洱海</a><a href="#combo-day-5">11.09 · 返程</a><a href="#combo-lake">泸沽湖怎么玩 ↗</a><a href="#combo-tradeoffs">沙溪 / 妆照取舍 ↗</a><a href="#combo-weather">天气与穿衣 ↗</a></nav>
+        <div class="dali-days"><article class="dali-day" id="combo-day-1"><div class="day-story"><figure class="day-photo"><img src="assets/images/lijiang-town.webp" width="600" height="800" alt="丽江古城街巷，联游景点风景参考" loading="lazy" decoding="async" /><figcaption>会合 · 丽江古城<a href="https://www.sonnagaya.com/entry/20140212/1392165988" target="_blank" rel="noreferrer">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>01 / 11 月 5 日 · 周四</span><h3>在丽江会合，先休息一晚。</h3><p>郑州 / 福州 / 宁波 → 丽江酒店；必要时经昆明动车转场</p></div></div><details class="day-timing" open><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>白天抵达</dt><dd>优先核对三地飞丽江的合适班次，再确认三人会合时间；目前没有已确认的直飞机票，不把三人同时落地当作前提。</dd></div><div><dt>落地后</dt><dd>丽江机场至古城外围网约车约 40–60 分钟。先到的人入住、吃饭、休息，按最晚抵达者的时间决定是否短逛。</dd></div><div><dt>如经昆明</dt><dd>按实际航班和动车衔接计算；昆明机场到车站按 60–90 分钟、昆明至丽江动车按约 3.5–4.5 小时规划，另留安检和晚点余量。</dd></div><div><dt>傍晚 / 晚间</dt><dd>较早到齐可在古城附近吃晚餐；晚到就直接休息，不在同一晚继续赶往泸沽湖。提前和酒店确认晚到入住、接送点。</dd></div></dl></details><p class="dali-day-note"><b>住宿与边界</b>住丽江古城外围、车能到门口的位置。若三人无法在 5 日晚会合，需要重新核算整个方案；当天不约正式妆照。</p></article><article class="dali-day" id="combo-day-2"><div class="day-story"><figure class="day-photo"><img src="assets/images/lugu.webp" width="1200" height="798" alt="泸沽湖里格半岛风景，联游景点风景参考" loading="lazy" decoding="async" /><figcaption>湖泊 · 泸沽湖第一天<a href="https://dp.pconline.com.cn/dphoto/3540876.html" target="_blank" rel="noreferrer">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>02 / 11 月 6 日 · 周五</span><h3>出发泸沽湖，下午慢看两三处风景。</h3><p>丽江酒店 → 泸沽湖住宿区域 → 里格 / 泸源崖等少量观景点 → 湖边酒店</p></div></div><details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>08:30–09:00</dt><dd>早餐后出发。若前一晚深夜才到丽江，推迟出发并减少下午景点，不压缩睡眠硬赶行程。</dd></div><div><dt>上午转场</dt><dd>预约合规包车或正规客运，丽江到湖区按约 3.5–5 小时保守规划，依线路、酒店位置、道路与天气复核；途中留休息时间。</dd></div><div><dt>中午–下午</dt><dd>到湖区先午餐、入住或寄存行李。住大落水、蒗放等区域需与司机核对当天动线；不是每个湖岸景点都在步行范围。</dd></div><div><dt>下午慢游</dt><dd>里格观景台、泸源崖、住处附近湖岸择 2–3 处。若更喜欢草海与走婚桥，就用它替换观景台半日，不要求环湖每站都停。</dd></div><div><dt>晚间</dt><dd>湖边晚餐，摩梭文化体验或锅庄活动按正规场所当日安排自选；早晚冷，活动结束及时回酒店。</dd></div></dl></details><p class="dali-day-note"><b>住宿与拍照</b>住泸沽湖一晚，优先核对房间保暖、热水、行李与上下车位置。自然穿搭拍湖景和三人合照，复杂妆造不放在长途抵达日。</p></article><article class="dali-day" id="combo-day-3"><div class="day-story"><figure class="day-photo"><img src="assets/images/lugu.webp" width="1200" height="798" alt="泸沽湖里格半岛风景，联游景点风景参考" loading="lazy" decoding="async" /><figcaption>慢游 · 泸沽湖第二天<a href="https://dp.pconline.com.cn/dphoto/3540876.html" target="_blank" rel="noreferrer">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>03 / 11 月 7 日 · 周六</span><h3>上午游船，午后去大理。</h3><p>泸沽湖酒店 / 正规码头 → 湖区午餐 → 包车到大理古城外围酒店</p></div></div><details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>08:30–10:30</dt><dd>早餐后，天气和运营允许时去正规码头坐猪槽船。含候船与拍照先留约 1–1.5 小时；如风雨影响运行，就改湖边散步、咖啡。</dd></div><div><dt>10:30–12:00</dt><dd>住处附近短逛、取行李、午餐。不要在离开上午再塞女神山索道或跨湖远端点位。</dd></div><div><dt>13:00–14:00</dt><dd>乘提前约好的合规车辆前往大理，约定清楚是否直达酒店、行李容量、途中休息、费用与延时规则。</dd></div><div><dt>傍晚–晚间</dt><dd>泸沽湖至大理先按约 5–6 小时保守预留，司机按两端酒店和当日路况再核实。约 18:00–20:00 抵达仅为规划目标，不是班车时刻。</dd></div><div><dt>到大理后</dt><dd>入住、附近晚餐、休息。不要再约正式拍摄或安排远郊夜游。</dd></div></dl></details><p class="dali-day-note"><b>时间说明</b>这叫“两天一晚湖区游”，包括进出交通，不是两个完整游玩白天。若要湖边两个完整白天，需要提前抵达或延长行程。</p></article><article class="dali-day" id="combo-day-4"><div class="day-story"><figure class="day-photo"><img src="assets/images/erhai.webp" width="1600" height="708" alt="洱海与苍山，联游景点风景参考" loading="lazy" decoding="async" /><figcaption>大理 · 洱海慢生活<a href="https://www.trip.com/blog/dali-itinerary-three-days/" target="_blank" rel="noreferrer">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>04 / 11 月 8 日 · 周日</span><h3>洱海短骑，把下午留给咖啡。</h3><p>古城酒店 → 龙龛附近 → 往才村方向短段骑行 / 散步 → 湖边午餐 → 酒店</p></div></div><details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>09:00–10:00</dt><dd>慢早餐后打车至海西廊道外围，按约 20–30 分钟规划，具体看酒店和入口。预报有转雨趋势，出门先看短时天气。</dd></div><div><dt>10:00–12:00</dt><dd>核对准入、计费和还车点后短骑或散步，骑行本身控制约 1–1.5 小时。停好车再拍照，累了折返，风雨明显就取消骑行。</dd></div><div><dt>12:00–15:00</dt><dd>村里午餐、湖边咖啡或回酒店休息。下午视天气决定是否继续短逛，不以完成 S 弯或环湖为目标。</dd></div><div><dt>想改海东</dt><dd>整天替换为文笔村＋小普陀岸边等两站包车，不能骑完海西再加海东；下雨、能见度差时优先减少公路行程。</dd></div><div><dt>晚间</dt><dd>古城附近晚餐，收行李、核对次日航班与动车。</dd></div></dl></details><p class="dali-day-note"><b>妆照取舍</b>本版当天给洱海，没有额外留出三人正式妆照所需约 5–7 小时。若妆照是必做项目，整天替换洱海，或另加一天；不硬塞半天。</p></article><article class="dali-day" id="combo-day-5"><div class="day-story"><figure class="day-photo"><img src="assets/images/dali-town.webp" width="640" height="853" alt="大理古城街巷，联游景点风景参考" loading="lazy" decoding="async" /><figcaption>返程 · 古城再会<a href="https://tw.trip.com/moments/detail/dali-1445616-138281165/" target="_blank" rel="noreferrer">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>05 / 11 月 9 日 · 周一</span><h3>慢早餐后返程，不再去远郊。</h3><p>大理酒店 → 大理机场；或大理站 → 昆明指定车站 → 长水机场 → 各自回家</p></div></div><details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>08:30–10:00</dt><dd>早餐、酒店附近买少量伴手礼；目前预报有雨且降温，不把古城漫步设为必须完成的项目。</dd></div><div><dt>若从大理直飞</dt><dd>先核实三人各自的可售返程班次，再倒排送机；酒店至机场按实时导航和交通缓冲安排，至少提前 2 小时到机场。</dd></div><div><dt>若经昆明返程</dt><dd>参考 10:30–11:00 前后退房出发去大理站，选择能在 15:00 前后到昆明的动车。不是指定车次，必须按实际车票重排。</dd></div><div><dt>昆明至机场</dt><dd>从到达站去长水机场按 90–120 分钟留出站、等车与路况缓冲；争取至少起飞前 2 小时到机场。</dd></div><div><dt>晚班机目标</dt><dd>经昆明时优先核对 19:00 后、最好 20:00 左右起飞的航班；若实际航班更早，必须提前离开大理，取消上午短逛。</dd></div></dl></details><p class="dali-day-note"><b>返程底线</b>不从沙溪或泸沽湖直接赶当天昆明航班。若有列车或航班变动，先保交通，上午游览随时可删。</p></article></div>
+        <section class="alternatives-section" id="combo-lake" aria-labelledby="combo-lake-title"><header class="alternatives-heading"><p class="eyebrow">LUGU LAKE · TWO DAYS, ONE NIGHT</p><h3 id="combo-lake-title">泸沽湖，两天可以这样玩。</h3><p>推荐“少量观景点＋一次游船＋湖边休息”。两天一晚包含进出湖区交通，不追求把整圈景点和每个项目都做完。</p></header><div class="combo-projects">
+          <article><span>01 / 观景</span><h4>分段环湖、拍照</h4><p>里格观景台、泸源崖、尼赛等挑 2–3 处，按住宿位置串联。留半天预算，包车停正规点位，天色与水色以实际为准。</p></article>
+          <article><span>02 / 体验</span><h4>猪槽船游湖</h4><p>选正规码头，含候船先留约 1–1.5 小时；航线、时长、是否上岛和费用先问清。穿救生衣，遇风雨或停航就改散步，不保证特定花期与候鸟。</p></article>
+          <article><span>03 / 湿地</span><h4>草海、走婚桥</h4><p>建议停留约 1–2 小时；它在湖区另一片区域，需要把往返车程算进去。用来替换半日观景台路线，不直接加在离湖上午。</p></article>
+          <article><span>04 / 留白</span><h4>湖边咖啡、闺蜜合照</h4><p>住处附近选一段允许停留的湖岸，自然穿搭互拍，随时回酒店。冷、风大或下雨时，留在湖景咖啡馆也可以。</p></article>
+          <article><span>05 / 人文</span><h4>摩梭文化体验、锅庄</h4><p>正规场所按当天场次自选，费用与活动内容先确认；尊重当地习俗和居民，拍人像先征得同意。不把晚会当作每天必有的固定节目。</p></article>
+          <article><span>06 / 替换</span><h4>格姆女神山索道</h4><p>喜欢登高可另留半天，出发前确认运行和天气。它是替换项，不塞入第二天上午，也不和长途转大理一起赶。</p></article>
+        </div><p class="alternative-sources">体验背景：<a href="https://www.ynxc.gov.cn/uploadfile/s61/2024/0419/20240419094809765.pdf" target="_blank" rel="noreferrer">云南文旅 · 泸沽湖与大落水介绍 ↗</a><a href="https://you.ctrip.com/sight/ninglang2169/2483922.html" target="_blank" rel="noreferrer">猪槽船游湖参考 ↗</a></p></section>
+        <section class="alternatives-section" id="combo-tradeoffs" aria-labelledby="combo-tradeoffs-title"><header class="alternatives-heading"><p class="eyebrow">LEAVE ROOM · 行程取舍</p><h3 id="combo-tradeoffs-title">沙溪、妆照，怎么留位置？</h3><p>原定五天里，湖区两日与跨城转场已占去时间。下面是可选改版，不是主线之外自动增加的安排。</p></header><div class="combo-projects combo-tradeoff-grid">
+          <article><span>五天优先</span><h4>泸沽湖＋洱海</h4><p>保留上面的 5–9 日主线，沙溪留候补。日常穿搭互拍为主，11 月 8 日只选海西或海东一条线。</p><a class="alternative-map" href="#erhai-guide" data-open-view="dali">查看海西骑行 / 海东自驾对比 ↗</a></article>
+          <article><span>延长到六天</span><h4>再给沙溪完整一天</h4><p>如果可以改成 11 月 10 日返程，9 日大理往返沙溪、10 日返程，需增加一晚住宿并重查机票。沙溪往返按约 5–6 小时规划；9–11 日降雨趋势下，不承诺该日适合拍照，按临近预报调整。</p><a class="alternative-map" href="#dali-day-4" data-open-view="dali">查看沙溪一天的景点与交通 ↗</a></article>
+          <article><span>妆照是必做</span><h4>正式拍摄要单独留时段</h4><p>三人选衣、化妆、个人照和合照预留约 5–7 小时。五天内可以用 8 日古城妆照替换洱海，想两者都保留就加一天或减少湖区停留；不默认“顺手拍完”。</p><p>古城做正式造型，泸沽湖、洱海、沙溪穿自己的衣服拍自然照。看同一摄影师真实客片，确认合照、精修、原片、加价与雨天改期。</p></article>
+        </div><div class="coast-bottom-note"><strong>只有提前到湖区，才考虑五天压缩版：</strong>若三人 5 日很早抵达且当天能到泸沽湖，可再核算“5–6 日湖区、6 日下午去大理、7 日洱海、8 日沙溪、9 日返程”。这不是两个完整湖区白天，且首日很赶；三人下午昆明会合的情况下不采用。</div></section>
+        <section class="alternatives-section" id="combo-weather" aria-labelledby="combo-weather-title"><header class="alternatives-heading"><p class="eyebrow">WEATHER NOTES · 快照而非实时</p><h3 id="combo-weather-title">白天晒太阳，早晚要保暖。</h3><p>以下为 2026 年 11 月 3 日查询的中国天气网页面快照，温度按最低—最高排列；大理、丽江城市页显示 3 日预报，泸沽湖景区页标注 2 日更新。不能用丽江城区温度代替湖区，更不能套用到雪山高处。</p></header>
+        <div class="coast-table-wrap"><table class="coast-table combo-weather-table"><caption>11 月 5–9 日天气快照 · 出发前与当天需再次复核</caption><thead><tr><th scope="col">日期</th><th scope="col">大理城区</th><th scope="col">丽江城区</th><th scope="col">泸沽湖景区</th></tr></thead><tbody>
+          <tr><th scope="row">11.05</th><td>多云<br />10–24℃</td><td>晴<br />8–23℃</td><td>多云转晴<br />3–20℃</td></tr><tr><th scope="row">11.06</th><td>晴<br />11–24℃</td><td>晴<br />8–23℃</td><td>晴转小雨<br />2–20℃</td></tr><tr><th scope="row">11.07</th><td>晴<br />9–24℃</td><td>晴<br />7–22℃</td><td>晴转小雨<br />1–19℃</td></tr><tr><th scope="row">11.08</th><td>晴转小雨<br />10–22℃</td><td>晴转小雨<br />6–21℃</td><td>小雨<br />2–17℃</td></tr><tr><th scope="row">11.09</th><td>中雨转小雨<br />8–12℃</td><td>中雨<br />9–16℃</td><td>本次未获取到同版逐日预报</td></tr>
+        </tbody></table></div><div class="alternatives-advice"><strong>对路线的影响</strong><ul><li>湖区项目和妆照优先选天气较好的时段，船与索道以当天运行情况为准；不能仅凭日最高温判断穿衣。</li><li>8 日洱海尽量上午短游，下午保留机动；9 日以返程为主，不再加沙溪或其他远郊。</li><li>省级趋势预测提示 9–11 日可能有较大范围降雨。延长到六天也要重新看天气，而不是默认多一天就一定适合沙溪。</li></ul></div>
+        <div class="dali-prep combo-packing"><article><p class="eyebrow">古城与拍照</p><h3>分层穿，方便脱穿</h3><p>长袖、薄针织或衬衫，加能随时穿脱的外套；拍裙装随身带保暖层。带防晒、墨镜、润唇膏与保湿用品。</p></article><article><p class="eyebrow">湖区早晚</p><h3>轻羽绒与防风层</h3><p>清晨、夜间、乘船准备轻羽绒或保暖外套，长裤与围巾。湖区最低温快照只有几度，不能只按白天约 20℃打包。</p></article><article><p class="eyebrow">骑行与转场</p><h3>防滑鞋、雨具</h3><p>骑行优先防风外套，衣摆、围巾和包带收好；雨天缩短活动。长途包车留休息时间，不为赶日落压缩路程缓冲。</p></article></div>
+        <p class="sources-label">天气与交通复核入口</p><div class="source-links"><a href="https://www.weather.com.cn/weather/101290201.shtml" target="_blank" rel="noreferrer">中国天气网 · 大理最新预报 ↗</a><a href="https://www.weather.com.cn/weather/101291401.shtml" target="_blank" rel="noreferrer">中国天气网 · 丽江最新预报 ↗</a><a href="https://www.weather.com.cn/weather/10129140401A.shtml" target="_blank" rel="noreferrer">中国天气网 · 泸沽湖景区最新预报 ↗</a><a href="https://yn.weather.com.cn/tqyw/10/4827490.shtml" target="_blank" rel="noreferrer">云南站 · 9–11 日降雨趋势参考 ↗</a><a href="https://www.12306.cn/" target="_blank" rel="noreferrer">铁路 12306 · 班次与到达站 ↗</a><a href="#dali-alternatives" data-open-view="dali">更多大理备选与妆照建议 ↗</a><a href="#lijiang-alternatives" data-open-view="lijiang">更多丽江备选与妆照建议 ↗</a></div>
+        </section>
+      </section>
+
+      <section class="wrapper dali-guide guide-panel" id="dali" data-panel="dali" role="tabpanel" aria-labelledby="dali-tab" hidden>
+        <p class="eyebrow">5 天 4 晚 · 3 天完整游玩</p>
         <div class="split-heading">
-          <h2>少换酒店，<br />少跨境。</h2>
-          <p>
-            全程只安排深圳入港、香港赴澳两次主要跨境。下午预留休息时间，视天气和孩子状态调整。
-          </p>
+          <h2>把时间，<br />留给喜欢的风景。</h2>
+          <p>2026.11.05–11.09｜昆明进出，大理连住四晚。每天一个主要区域，拍照、咖啡和休息都留出时间。</p>
         </div>
-        <div class="route-map" role="img" aria-label="深圳到香港再到澳门的旅行路线">
-          <div class="route-stop stop-shenzhen"><span>01</span><strong>深圳</strong><small>相聚与休整</small></div>
-          <div class="route-line route-line-one"></div>
-          <div class="route-stop stop-hongkong"><span>02–04</span><strong>香港</strong><small>大学 · 维港 · 迪士尼</small></div>
-          <div class="route-line route-line-two"></div>
-          <div class="route-stop stop-macao"><span>05–06</span><strong>澳门</strong><small>世遗老城 · 路氹</small></div>
-          <div class="route-line route-line-three"></div>
-          <div class="route-stop stop-return"><span>07</span><strong>返程</strong><small>珠海 / 深圳 / 东莞</small></div>
-        </div>
-      </section>
-
-      <section class="featured-section guide-panel" id="days" data-panel="itinerary">
-        <div class="wrapper">
-          <p class="eyebrow light">每日安排</p>
-          <div class="split-heading light-heading">
-            <h2>按日期查看，<br />照着走即可。</h2>
-            <p>包含交通、用餐和当天提醒。时间为保守预估。</p>
-          </div>
-          <div class="day-tabs" role="tablist" aria-label="每日行程">
-            <button class="day-tab active" role="tab" aria-selected="true" data-day="1">01<small>深圳</small></button>
-            <button class="day-tab" role="tab" aria-selected="false" data-day="2">02<small>入港</small></button>
-            <button class="day-tab" role="tab" aria-selected="false" data-day="3">03<small>港大</small></button>
-            <button class="day-tab" role="tab" aria-selected="false" data-day="4">04<small>迪士尼</small></button>
-            <button class="day-tab" role="tab" aria-selected="false" data-day="5">05<small>赴澳</small></button>
-            <button class="day-tab" role="tab" aria-selected="false" data-day="6">06<small>澳门</small></button>
-            <button class="day-tab" role="tab" aria-selected="false" data-day="7">07<small>返程</small></button>
-          </div>
-          <article class="day-card" id="day-card" aria-live="polite"></article>
-        </div>
-      </section>
-
-      <section class="wrapper must-go guide-panel" id="mustgo" data-panel="hongkong">
-        <div class="section-head-row">
-          <div>
-            <p class="eyebrow">香港重点</p>
-            <h2>本次必去<br />两个地方。</h2>
-          </div>
-          <p>香港大学和迪士尼固定安排。其余景点按天气和体力选择。</p>
-        </div>
-        <div class="highlight-grid">
-          <article class="highlight-card disney-card">
-            <span class="card-number">01 / HONG KONG</span>
-            <h3>香港迪士尼</h3>
-            <p>以合家欢项目、演出和巡游为主，不追求玩完所有项目。</p>
-            <ul>
-              <li><b>推荐时长</b><span>完整一天</span></li>
-              <li><b>适合谁</b><span>2–10 岁全员</span></li>
-              <li><b>关键动作</b><span>购票后确认入园预约</span></li>
-            </ul>
+        <aside class="dali-notice"><strong>交通待订 · 时间为规划预估</strong><p>本方案以 5 日三人约 15:30 前抵达昆明、9 日搭乘 19:00 后（优先 20:00 左右）返程航班为前提。航班、余票及动车尚未全部核实；订票后按最晚落地、最早返程的人调整。昆明站与昆明南站不可混用。</p></aside>
+        <nav class="dali-day-links" aria-label="大理每日行程导航">
+          <a href="#dali-day-1">11.05 · 会合</a><a href="#dali-day-2">11.06 · 妆照</a><a href="#dali-day-3">11.07 · 洱海</a><a href="#erhai-guide">海西 / 海东对比 ↗</a><a href="#dali-day-4">11.08 · 沙溪</a><a href="#dali-day-5">11.09 · 返程</a><a href="#dali-alternatives">更多图文备选 ↗</a>
+        </nav>
+        <div class="dali-days">
+          <article class="dali-day" id="dali-day-1">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/dali-town.webp" width="640" height="853" alt="大理古城街巷，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>抵达 · 古城落脚<a href="https://tw.trip.com/moments/detail/dali-1445616-138281165/" target="_blank" rel="noreferrer" aria-label="查看大理古城街巷图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>01 / 11 月 5 日 · 周四</span><h3>昆明会合，晚上住进大理。</h3><p>郑州 / 福州 / 宁波 → 昆明长水机场 → 动车出发站 → 大理站 → 酒店</p></div></div>
+            <details class="day-timing" open><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>中午–15:30</dt><dd>三人陆续落地。先到的人在机场午餐、休息；福州此前查到的 15:05 抵达时间仅作会合参考。</dd></div><div><dt>15:30–16:15</dt><dd>取行李、会合，买水和途中简餐。</dd></div><div><dt>16:15–17:45</dt><dd>合乘网约车到车票指定的昆明站或昆明南站，按 60–90 分钟预留车程。</dd></div><div><dt>18:30 以后</dt><dd>乘动车到大理，规划按约 2–2.5 小时；与最晚航班落地至少间隔 3.5 小时，具体以实际班次为准。</dd></div><div><dt>约 21:30–22:30</dt><dd>大理站打车约 45–60 分钟到古城外围酒店，简单吃饭、入住休息。</dd></div></dl></details>
+            <p class="dali-day-note"><b>当天重点</b> 只完成会合和转场，不约拍摄。若有人傍晚才到昆明，需要调整首晚住宿与次日安排。</p>
           </article>
-          <article class="highlight-card hku-card">
-            <span class="card-number">02 / HONG KONG</span>
-            <h3>香港大学</h3>
-            <p>预留一个上午逛校园，午后顺路到中环和维港。</p>
-            <ul>
-              <li><b>推荐时长</b><span>2–3 小时</span></li>
-              <li><b>交通方式</b><span>港铁香港大学站</span></li>
-              <li><b>关键动作</b><span>提前确认官方访客安排</span></li>
-            </ul>
+          <article class="dali-day" id="dali-day-2">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/dali-town.webp" width="640" height="853" alt="大理古城街巷，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>妆照 · 古城街巷参考<a href="https://tw.trip.com/moments/detail/dali-1445616-138281165/" target="_blank" rel="noreferrer" aria-label="查看大理古城街巷图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>02 / 11 月 6 日 · 周五</span><h3>白族风格妆照，拍一组闺蜜纪念。</h3><p>工作室 → 大理古城南门周边 → 白墙街巷 → 人民路</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>09:00–10:00</dt><dd>慢早餐，饵丝或米线；步行或短途打车到工作室。</dd></div><div><dt>10:00–13:00</dt><dd>选衣、妆造。每人先选一套服装、一个造型，提前确认化妆师人数和三人完成时间。</dd></div><div><dt>13:00–14:00</dt><dd>简单午餐、补妆，摄影师按光线与人流确定集中拍摄区域。</dd></div><div><dt>14:00–17:00</dt><dd>古城旅拍：分别拍个人照，再拍三人合照。街巷间以步行为主。</dd></div><div><dt>17:00 以后</dt><dd>还服装、卸妆、回酒店休息；18:30 后吃白族家常菜，有精力再逛人民路。</dd></div></dl></details>
+            <p class="dali-day-note"><b>出片重点</b> 同系列不同颜色的白族风格服饰，参考真实客片选妆容。当天不再加洱海远景拍摄。</p>
           </article>
-        </div>
-      </section>
-
-      <section class="wrapper hk-routes guide-panel" id="hk-routes" data-panel="hongkong">
-        <p class="eyebrow">香港路线库 · 按体力选择</p>
-        <h2>香港路线，<br />按体力选择。</h2>
-        <p class="route-lead">本次固定安排“港大线＋维港线＋迪士尼线”。其余路线作为天气、体力和兴趣不同的可替换选项，避免同一天跨港岛、九龙来回折返。</p>
-        <div class="city-route-grid">
-          <article class="recommended"><span>本次 Day 3</span><h3>港大 · 摩天轮 · 夜游巴士线</h3><p>香港大学 → 中环摩天轮 → 酒店午休 → 尖沙咀开篷巴士夜游。摩天轮固定安排；夜游巴士根据孩子状态决定。</p><strong>强度：中 · 夜游可取消</strong></article>
-          <article class="recommended"><span>本次 Day 2</span><h3>尖沙咀 · 维港夜景线</h3><p>钟楼 → 星光大道 → 海旁散步 → 天星小轮。抵港日全程平缓，推车友好，晚餐后可随时回酒店。</p><strong>强度：低 · 约 3–4 小时</strong></article>
-          <article><span>九龙慢游</span><h3>尖沙咀 · 旺角 · 街区线</h3><p>维港/尖沙咀与旺角街区二选一或分两天走。适合想看香港不同城市质感；本次建议只保留尖沙咀，不再塞旺角。</p><strong>本次定位：可替换，不叠加</strong></article>
-          <article><span>天气好备选</span><h3>中环 · 山顶线</h3><p>中环街景/半山扶梯 → 山顶。只在晴天、孩子午休充足时加；国庆排队长，不与港大安排在同一天。</p><strong>强度：中–高 · 需预留排队</strong></article>
-          <article><span>港岛体验</span><h3>中环 · 叮叮车 · 落日巴士线</h3><p>中环老城街景 → 叮叮车短体验 → 选择人力车观光巴士或 Big Bus 看日落。更适合大孩子和成人，幼儿累时只保留叮叮车一小段。</p><strong>本次定位：替换中环短逛</strong></article>
-          <article><span>亲子主题</span><h3>海洋公园全日线</h3><p>动物、缆车、山海景观是核心。需要整天体力投入，因此只能与迪士尼二选一；本次迪士尼优先，不并排安排。</p><strong>本次定位：不与迪士尼同游</strong></article>
-          <article><span>香港另一面</span><h3>跑马地 · 赛马夜间线</h3><p>感受香港城市夜生活的一面。仅适合没有带幼儿、且确认赛事和入场规则的晚上；不作为本次两家同行的默认项目。</p><strong>本次定位：成人可选</strong></article>
-          <article><span>离岛一日</span><h3>大澳 · 大屿山慢游线</h3><p>渔村、海边和慢节奏氛围突出。交通往返长，适合把迪士尼或市区日整体替换掉，而不是“顺路加一个大澳”。</p><strong>本次定位：替换迪士尼才考虑</strong></article>
-          <article><span>离岛一日</span><h3>长洲 / 南丫岛线</h3><p>坐船、环岛步行和小岛餐厅是亮点；天气稳定、孩子愿意走路时再选。两座岛只能选一座，国庆船班和返程需预留缓冲。</p><strong>本次定位：下次香港慢游更适合</strong></article>
-          <article><span>港岛南岸</span><h3>赤柱 · 石澳海边线</h3><p>海边与低密度街景，比市区更松弛。适合天气好、愿意看海的一天；和维港、港大不是同一动线，不能硬拼。</p><strong>本次定位：替换中环日</strong></article>
-          <article><span>徒步路线</span><h3>麦理浩径体验线</h3><p>山海徒步是香港很有代表性的另一面，但需看天气、鞋服和孩子体力。两位幼儿同行不建议作为主行程，可留给成人或孩子更大以后。</p><strong>本次定位：不建议本次安排</strong></article>
-          <article><span>亲子雨天备选</span><h3>西九龙室内线</h3><p>西九文化区周边商场、亲子室内活动、尖沙咀海旁。适合下雨、暑热或幼儿状态一般的午后。</p><strong>强度：低 · 可随时删减</strong></article>
-        </div>
-      </section>
-
-      <section class="disney-guide guide-panel" id="disney" data-panel="hongkong">
-        <div class="wrapper">
-          <p class="eyebrow light">香港迪士尼 · 独立攻略</p>
-          <div class="split-heading light-heading">
-            <h2>全家一起玩，<br />但不必一起排队。</h2>
-            <p>本攻略默认 4 位成人分成两组轮换照看幼儿：让大孩子玩到想玩的，也不给幼儿和大人增加无效排队。</p>
-          </div>
-          <div class="disney-plan-grid">
-            <article><span>入园前</span><h3>先锁定三个时间</h3><ol><li>门票购入后，立即完成当天入园预约。</li><li>前一晚看官方 App：开园时间、演出、巡游与维修项目。</li><li>以“开园前 45 分钟到门口”为目标，入园后先做最想玩的两项。</li></ol></article>
-            <article><span>上午</span><h3>两队分流，午饭会合</h3><ol><li>A 组：9 岁、10 岁孩子＋两位成人，优先高需求项目。</li><li>B 组：2 岁、3 岁孩子＋两位成人，人物见面、室内互动、低龄项目。</li><li>11:30 前汇合吃午饭，避开 12:00 后的集体用餐高峰。</li></ol></article>
-            <article><span>身高判断</span><h3>先量身高再许愿</h3><ul class="height-list"><li><b>81cm+</b> 玩具兵团跳降伞</li><li><b>95cm+</b> 雪岭滑雪橇</li><li><b>102cm+</b> 铁甲奇侠、星战极速穿梭</li><li><b>112cm+</b> 灰熊山极速矿车</li><li><b>120cm+</b> 冲天遥控车</li></ul></article>
-            <article><span>午后与夜间</span><h3>演出优先，夜景随状态</h3><ol><li>13:30–15:00 安排室内演出、慢速项目或推车午睡。</li><li>巡游、夜间表演按当日 App 时间倒排，不写死时间。</li><li>幼儿撑不住时，一组先回酒店；另一组陪大孩子看夜场即可。</li></ol></article>
-          </div>
-          <div class="disney-footer-note"><span>乘客轮换</span><p>大多数有身高限制的项目提供乘客轮换服务：一位成人照顾未乘坐的孩子，另一位游玩后可与前者交接，后者通常无需重新排队。</p><a href="https://www.hongkongdisneyland.com/zh-cn/guest-services/rider-switch/" target="_blank" rel="noreferrer">官方说明 ↗</a></div>
-        </div>
-      </section>
-
-      <section class="macao-routes guide-panel" id="macao" data-panel="macao">
-        <div class="wrapper">
-          <p class="eyebrow light">澳门路线库</p>
-          <div class="split-heading light-heading"><h2>老城半日，<br />路氹半日。</h2><p>澳门最容易累在“老城石板路＋酒店群步行”叠加。把半岛、路氹和氹仔旧城分成三个独立片区，才能随时收缩。</p></div>
-          <div class="macao-route-grid">
-            <article><span>本次 Day 5</span><h3>路氹室内恢复线</h3><p>氹仔码头 → 酒店 → 威尼斯人/巴黎人/伦敦人。以午休和室内体验为主，解决抵达日疲劳。</p></article>
-            <article><span>本次 Day 6 上午</span><h3>澳门半岛世遗线</h3><p>大三巴 → 恋爱巷 → 议事亭前地。早到、早走，11:45 前开始吃午饭，避免人潮和暴晒。</p></article>
-            <article><span>本次 Day 6 傍晚</span><h3>氹仔旧城美食线</h3><p>官也街周边 → 晚餐 → 回路氹。只安排一顿正餐和少量小吃，不把手信店当任务清单。</p></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="food-section guide-panel" id="food" data-panel="foodstay">
-        <div class="wrapper">
-          <div class="section-head-row">
-            <div>
-              <p class="eyebrow">亲子美食策略</p>
-              <h2>按动线吃，<br />不为一间店赶路。</h2>
+          <article class="dali-day" id="dali-day-3">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/erhai.webp" width="1600" height="708" alt="洱海与苍山，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>慢游 · 洱海与苍山<a href="https://www.trip.com/blog/dali-itinerary-three-days/" target="_blank" rel="noreferrer" aria-label="查看洱海与苍山图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>03 / 11 月 7 日 · 周六</span><h3>洱海西岸，短段骑行和湖边下午茶。</h3><p>龙龛码头附近 → 往才村方向短段骑行 / 散步 → 湖边下午茶</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>09:00–10:30</dt><dd>早餐后穿自己的日常衣服，网约车约 20–30 分钟到龙龛附近廊道入口。</dd></div><div><dt>10:30–12:00</dt><dd>现场核对租车准入与还车规则后，往才村方向短段骑行；骑骑停停约 1–1.5 小时，累了折返或改散步，不追求骑完海西。</dd></div><div><dt>12:00–13:00</dt><dd>村里午餐，尝试砂锅鱼等当地家常菜。</dd></div><div><dt>13:00–15:00</dt><dd>找喜欢的湖边咖啡馆，休息、看风景，拍窗景和三人自然合照。</dd></div><div><dt>15:00–17:00</dt><dd>继续在附近慢逛；想换场再打车到才村外围，不要求沿廊道走完全程。</dd></div><div><dt>17:00 以后</dt><dd>打车回酒店休息，晚餐自由选择。</dd></div></dl></details>
+            <p class="dali-day-note"><b>出片重点</b> 奶油色、浅蓝、棕色日常穿搭；湖岸、树影和窗景。车辆停廊道外围，骑行先核对准入与还车规则；海鸥、叶色和晴天不保证。<a class="coast-inline-link" href="#erhai-guide">对比海西骑行与海东自驾 ↗</a></p>
+          </article>
+          <section class="erhai-guide" id="erhai-guide" aria-labelledby="erhai-guide-title">
+            <header class="coast-heading"><p class="eyebrow">ERHAI · TWO WAYS TO WANDER</p><h3 id="erhai-guide-title">海西骑行，还是海东自驾？</h3><p>11 月 7 日的两种过法。保留沙溪的情况下，选一条就好；两岸都想玩，需要替换另一天或延长行程。</p></header>
+            <div class="coast-recommendation"><strong>给你们的建议：海西短段骑行优先</strong><p>你们住古城附近，想悠闲、拍闺蜜照，海西更方便随时停下来。若更想拍苍山洱海大景、不想骑车，改选海东两站包车；自驾会让一人承担驾驶和停车，三人都想轻松拍照时可比较包车报价。</p></div>
+            <div class="coast-table-wrap"><table class="coast-table"><caption>两岸怎么选 · 以下为本次路线的规划建议</caption><thead><tr><th scope="col">比较</th><th scope="col">海西 · 骑行 / 散步</th><th scope="col">海东 · 自驾 / 包车</th></tr></thead><tbody><tr><th scope="row">风景</th><td>近水廊道、湿地、村落与树影，适合自然人像。</td><td>湖面、山景和高低视角，更适合拍苍山洱海大景。</td></tr><tr><th scope="row">优点</th><td>短段可进可退，少找停车位，拍照和咖啡更容易穿插。</td><td>不用连续骑车，带衣服和行李方便，能在不同观景点切换。</td></tr><tr><th scope="row">缺点</th><td>风、日晒与人流影响体验；骑得越远，返程和还车越费心。</td><td>要跨岸转场、找停车位；有弯坡与混行车流，驾驶者需要专心开车。</td></tr><tr><th scope="row">留多久</th><td>建议半天到一天；骑行本身控制约 1–1.5 小时，剩下时间拍照、吃饭。</td><td>建议完整一天；只挑 2–3 个点，把跨岸、停车和步行时间算进去。</td></tr><tr><th scope="row">费用构成</th><td>往返接送＋租车 / 观光车＋餐饮。扫码计时、还车点和调度费须先看清。</td><td>租车＋保险＋油 / 电＋停车，或包车报价；商业拍摄场地、咖啡另算。</td></tr><tr><th scope="row">光线</th><td>龙龛可作日出候选，但本次不强制早起；白天拍树影、湖边生活感。</td><td>面对苍山的观景点可等候日落，但不为夕阳耽误返程，阴天也要准备替代拍法。</td></tr></tbody></table></div>
+            <div class="coast-route-grid">
+              <article class="coast-route" id="erhai-west">
+                <figure class="coast-photo"><img src="assets/images/erhai.webp" width="1600" height="708" alt="洱海与苍山风景，海西慢游氛围参考" loading="lazy" decoding="async" /><figcaption>WEST BANK / 海西慢骑<a href="https://www.trip.com/blog/dali-itinerary-three-days/" target="_blank" rel="noreferrer">图片来源 ↗</a></figcaption></figure>
+                <div class="coast-route-body"><p class="eyebrow">方案 A · 本次优先</p><h4>海西：只骑一段，也算好好玩过。</h4><p class="coast-route-line">古城酒店 → 车到龙龛外围 → 往才村方向骑骑停停 → 按还车规则结束 → 咖啡 / 午餐 → 回酒店</p>
+                  <h5>打卡点怎么挑</h5><ul class="coast-list"><li><strong>龙龛码头附近｜优先</strong>拍湖面、树影与开阔岸线；能见度和树叶颜色随天气、季节变化，不保证红杉、海鸥同时出现。</li><li><strong>才村周边｜与龙龛搭配</strong>选一段允许停留的廊道，拍骑行感、湖边散步和三人合照；午餐回村里找，不只靠路边零食。</li><li><strong>磻溪 S 弯｜替换选项</strong>喜欢弯道构图可另选这一段作起点；若人多，附近允许通行的湖岸也可拍，不把它当作龙龛后的必加点。</li><li><strong>廊桥、海舌 / 喜洲方向｜另一天再考虑</strong>属于向北延伸的候选，别把一长串机位当成紧挨着。海舌开放与预约另行核对，本次短线不排。</li></ul>
+                  <h5>怎么骑更悠闲</h5><p>早餐后约 10:00 到湖边，租车前试刹车、车座和变速；把纯骑行控制在约 1–1.5 小时，拍照与喝咖啡另留时间。若必须原点还车，出发前就设折返时间；不熟练的人直接步行，三人不必为了同步都租车。</p>
+                  <h5>避雷点</h5><ul class="coast-list coast-pitfalls"><li><strong>外租车不等于廊道可用车。</strong>不要先租电动车，再到入口碰运气。官方回复说明，廊道内有统一运营的扫码自行车、共享电动自行车；机动车及未经批准的经营性非机动车不得驶入和停放，具体按入口及运营方规则核对。</li><li><strong>鲜花车、双人车先问用途与准入。</strong>区分拍照道具和正常骑行车辆，确认押金、计时、原点还车还是定点还车；不能还车就不要直接打车离开。</li><li><strong>停下来再拍。</strong>不要边骑边自拍、三人并排占满道路；长裙、围巾和包带收好，避免卷入车轮。</li><li><strong>别把全环湖当休闲骑行。</strong>人多、风大或下雨就缩短线路；不为打卡下水、踩湿地、投喂候鸟。</li></ul>
+                  <p class="coast-source">通行规则参考：<a href="https://m.sohu.com/a/1059227256_319382/?_trans_=00" target="_blank" rel="noreferrer">大理州洱海管理局负责人答复（加油大理转载，2026 年 8 月）↗</a>；现场规则与计费需出发前复核。</p>
+                </div>
+              </article>
+              <article class="coast-route" id="erhai-east">
+                <figure class="coast-photo"><img src="assets/images/wenbi.webp" width="640" height="866" alt="海东文笔村临湖建筑与湖岸风光" loading="lazy" decoding="async" /><figcaption>EAST BANK / 海东看远方<a href="https://hk.trip.com/moments/detail/dali-city-1445616-119971213/" target="_blank" rel="noreferrer">图片来源 ↗</a></figcaption></figure>
+                <div class="coast-route-body"><p class="eyebrow">方案 B · 替换洱海日</p><h4>海东：少停几站，多看一会儿。</h4><p class="coast-route-line">轻松版：古城酒店 → 文笔村 → 小普陀岸边 → 导航返酒店。双廊可替换其中一站，具体走法按停车与实时路况调整。</p>
+                  <h5>打卡点怎么挑</h5><ul class="coast-list"><li><strong>文笔村｜优先</strong>选有合法停车位的观景点、村内开放区域或咖啡馆，看湖岸与苍山方向；彩虹公路是通行道路，不在车道中央摆拍。</li><li><strong>挖色 / 小普陀岸边｜优先</strong>找正规停车点后步行，拍小岛、湖面与岸线；不必为完成打卡临时加船游，上岛另核船票和运行条件。</li><li><strong>双廊古镇｜喜欢古镇就替换一站</strong>适合湖边街巷、露台和慢午餐。车停外围，古镇内步行；南诏风情岛、特定院落或餐厅消费不能当成整座古镇的统一门票。</li><li><strong>理想邦｜喜欢建筑再选</strong>更偏商业建筑与旅拍场景，不是天然湖岸。咖啡、机位、接驳、停车是否收费分别确认，不因为“网红”就挤进当天。</li></ul>
+                  <h5>怎么走更悠闲</h5><p>按 09:30 左右从古城出发、17:00–18:00 左右回酒店规划，约 6–8 小时是含转场与停车的时间预算，不是已核定车程。文笔＋小普陀只留两站，中间吃饭、喝咖啡；想加双廊就替换一站，别再叠上海西骑行。</p>
+                  <h5>避雷点</h5><ul class="coast-list coast-pitfalls"><li><strong>不是整条路都能贴湖、随停随拍。</strong>环海东路有弯坡与穿村路段，拍照只进正规停车点，不占弯道、路肩或出入口。</li><li><strong>新手不为照片租敞篷车或长途电动车。</strong>汽车自驾先看保险、免赔范围、车损与轮胎情况，留验车影像；电动车还要考虑续航、风与混行车流。</li><li><strong>收费机位不等于公共景点。</strong>先问最低消费、拍摄时长、是否含摄影，以及停车和妆造是否另收费；不承诺“所有网红点都免费”。</li><li><strong>鹿卧山洞穴、废墟和临崖小路不列入本次。</strong>不为找机位翻护栏或下陡坡；司机不边开车边拍，也不为了等日落疲劳夜驾。</li></ul>
+                  <p class="coast-source">道路提醒参考：<a href="https://www.yn.xinhuanet.com/20260922/30bda39681784158b3f1f32166ee42c5/c.html" target="_blank" rel="noreferrer">新华网 · 环海东路弯坡、穿村与夜间行车提示（2026 年 9 月）↗</a>。节假日交通管制有时效，不能直接套用到 11 月 7 日。</p>
+                </div>
+              </article>
             </div>
-            <p>国庆期间把“能坐下、孩子能吃、离酒店近”放在第一位。网红名店仅作加分项，排队超过 30 分钟就切换备选。</p>
-          </div>
-          <div class="food-grid">
-            <article><span>香港 · 尖沙咀</span><h3>茶餐厅与粤菜</h3><p>菠萝包、蛋挞、云吞面、烧味饭。维港周边优先商场餐厅或可预约粤菜馆。</p></article>
-            <article><span>香港 · 中环/港大</span><h3>早茶与简餐</h3><p>点心、粥粉面、港大附近简餐。当天不要为了名店跨区排长队。</p></article>
-            <article><span>澳门 · 半岛</span><h3>小吃与土生菜</h3><p>葡挞、猪扒包、牛杂与土生葡菜；大三巴一带适合边走边吃，但正餐另找可坐下的店。</p></article>
-            <article><span>澳门 · 路氹</span><h3>酒店保底餐</h3><p>中餐、葡式餐或酒店自助。至少安排一顿，确保幼儿能按时吃饭、大人能安心休息。</p></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="wrapper stay-section guide-panel" id="stay" data-panel="foodstay">
-        <div class="stay-intro">
-          <p class="eyebrow">住宿建议</p>
-          <h2>少换一次酒店，<br />少累一整家人。</h2>
-          <p>这版不锁具体酒店，先锁位置与房型。等返程航班、预算和房价确定后，再筛选可免费取消的选项。</p>
-        </div>
-        <div class="stay-list">
-          <article><div><span>香港 · 连住 3 晚</span><h3>尖沙咀 / 西九龙</h3></div><p>维港、港铁、餐饮和赴澳码头的衔接最顺。缺点是房间较小、国庆房价高。</p><strong>建议：两间相邻房 / 家庭套房</strong></article>
-          <article><div><span>澳门 · 连住 2 晚</span><h3>路氹综合度假区</h3></div><p>房间大、室内设施多、午休方便；前往澳门半岛需乘穿梭巴士或出租车。</p><strong>建议：优先选择含早餐的房型</strong></article>
-        </div>
-      </section>
-
-      <section class="transport-section guide-panel" id="transport" data-panel="prep">
-        <div class="wrapper">
-          <p class="eyebrow light">交通攻略</p>
-          <div class="split-heading light-heading">
-            <h2>少一次换乘，<br />多一份从容。</h2>
-            <p>以下是优先方案与可替代方案。跨境班次、票价和口岸安排会变动，出发前以官方信息为准。</p>
-          </div>
-          <div class="transport-list">
-            <article><div class="transport-step">01</div><div><h3>深圳 → 香港</h3><p>轻装首选福田口岸接东铁线；带两辆推车、行李多时，改深圳湾口岸的跨境巴士或合规包车。</p></div><span>预留 2–4 小时</span></article>
-            <article><div class="transport-step">02</div><div><h3>香港市内</h3><p>八达通/移动支付配合港铁。港大与中环、尖沙咀可组成同一天；天星小轮本身就是轻松的维港体验。</p></div><span>港铁＋短程步行</span></article>
-            <article><div class="transport-step">03</div><div><h3>香港 → 澳门</h3><p>优先选直达澳门氹仔客运码头的船班，减少经珠海中转的二次过关。行李和推车集中管理。</p></div><span>以船班为准</span></article>
-            <article><div class="transport-step">04</div><div><h3>澳门市内 / 返程</h3><p>路氹酒店群用穿梭巴士；澳门老城两家人一起打车更适合。返深当天不加景点，预留口岸和机场时间。</p></div><span>出租车＋穿梭巴士</span></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="wrapper essentials guide-panel" id="tips" data-panel="prep">
-        <div class="essential-heading">
-          <p class="eyebrow">实用准备</p>
-          <h2>把麻烦留在<br />出发之前。</h2>
-        </div>
-        <div class="essential-grid">
-          <article>
-            <span>01</span>
-            <h3>口岸与证件</h3>
-            <p>提前核验每个人的港澳通行证和签注；国庆跨境务必预留排队时间，并在当天查看口岸实时状态。</p>
+            <p class="coast-bottom-note"><strong>本次怎么落地：</strong>11 月 7 日默认海西短段骑行，11 月 8 日沙溪不变。要改海东，就整天替换洱海日；不把两岸、喜洲、双廊一次塞满。本文时间为规划预算，营业、租车准入、计费和路况以当日核实为准。</p>
+          </section>
+          <article class="dali-day" id="dali-day-4">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/shaxi.webp" width="1280" height="960" alt="沙溪玉津桥，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>古镇 · 沙溪玉津桥<a href="https://sg.trip.com/moments/detail/jianchuan-2215-134850704/" target="_blank" rel="noreferrer" aria-label="查看沙溪玉津桥图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>04 / 11 月 8 日 · 周日</span><h3>沙溪古镇，走进茶马古道的旧时光。</h3><p>大理酒店 → 寺登街 → 古戏台 → 东寨门 → 玉津桥 → 黑潓江畔 → 返回大理</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>07:30–08:30</dt><dd>早餐后出发。三人预约合规往返包车，提前确认酒店接送、车型、费用包含和司机等候时间。</dd></div><div><dt>08:30–11:30</dt><dd>乘车前往沙溪，单程按约 2.5–3 小时保守预留，依接送位置、路线与路况调整；途中可安排短暂休息。</dd></div><div><dt>11:30–12:30</dt><dd>古镇午餐，先休息再开始游览；车辆停外围，镇内步行。</dd></div><div><dt>12:30–14:00</dt><dd>寺登街、古戏台周边慢逛，拍石板街、老屋门窗与三人自然合照。</dd></div><div><dt>14:00–15:00</dt><dd>古镇咖啡或茶馆休息，不追逐排队机位。</dd></div><div><dt>15:00–16:30</dt><dd>经东寨门到玉津桥、黑潓江畔散步拍照。只走核心区域，不加远处书店或石宝山。</dd></div><div><dt>16:30–19:30</dt><dd>乘预约车辆返回大理酒店，按约 2.5–3 小时预留；晚餐选择酒店附近，饭后整理行李。</dd></div></dl></details>
+            <p class="dali-day-note"><b>出片与节奏</b> 奶油色、棕色或牛仔日常穿搭，拍古戏台、石桥与河岸。这天替换喜洲，不叠加游览；往返约 5–6 小时，是全程交通最多的一天。若更看重睡到自然醒，可恢复喜洲短途方案。当天不另约复杂妆造，也不为等日落推迟返程。</p>
           </article>
-          <article>
-            <span>02</span>
-            <h3>住宿位置</h3>
-            <p>香港连住尖沙咀或西九龙，澳门连住路氹。订两间相邻房或家庭套房，午休的价值高过多逛一个景点。</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>带娃节奏</h3>
-            <p>每一天只设置一个主景点；午后 13:30–16:00 视孩子状态回酒店休息，推车选可收纳的轻便款。</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>提前预约</h3>
-            <p>港大与迪士尼都是本次行程的关键预约项。迪士尼购票后还需确认入园名额，港大校园游览请走官方渠道。</p>
+          <article class="dali-day" id="dali-day-5">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/erhai.webp" width="1600" height="708" alt="洱海与苍山，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>再会 · 把湖边的风带回家<a href="https://www.trip.com/blog/dali-itinerary-three-days/" target="_blank" rel="noreferrer" aria-label="查看洱海与苍山图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>05 / 11 月 9 日 · 周一</span><h3>留一个悠闲上午，晚上各自回家。</h3><p>古城附近 → 大理站 → 昆明站 / 昆明南站 → 长水机场 → 郑州 / 福州 / 宁波</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>08:30–09:30</dt><dd>慢早餐，不再去远郊。</dd></div><div><dt>09:30–10:30</dt><dd>酒店附近散步、买鲜花饼，拍最后一组日常合照。</dd></div><div><dt>10:30–12:00</dt><dd>取行李退房，网约车到大理站，留足安检候车时间。</dd></div><div><dt>12:30 左右</dt><dd>选择动车回昆明，目标 15:00 前后到达，须按实际车票调整。</dd></div><div><dt>15:00–17:00</dt><dd>合乘网约车到机场，预留 90–120 分钟用于出站、候车与道路交通。</dd></div><div><dt>19:00 以后</dt><dd>分别乘晚班机返程，优先选择 20:00 左右起飞的班次；起飞前至少 2 小时到机场。</dd></div></dl></details>
+            <p class="dali-day-note"><b>返程底线</b> 若任一人的航班早于 19:00，取消古城短逛、提前坐动车。上午游览可删，机场缓冲不可压缩。</p>
           </article>
         </div>
+        <section class="alternatives-section" id="dali-alternatives" aria-labelledby="dali-alternatives-title">
+          <header class="alternatives-heading"><p class="eyebrow">DALI · KEEP A LITTLE ROOM FOR SURPRISES</p><h3 id="dali-alternatives-title">大理，还有这些备选。</h3><p>原来的妆照、洱海、沙溪安排保留。下面用于替换，不是往五天里继续加点。游玩时长为建议预算，不含往返交通；票务、开放与接送须再确认。</p></header>
+          <div class="alternatives-advice"><strong>怎么选更适合你们</strong><ul><li><b>想更轻松：</b>11 月 8 日沙溪改凤阳邑半日＋休息，或周城扎染半日，减少远途转场。</li><li><b>想增加自然：</b>用苍山替换沙溪或洱海一天，先选索道再排时间，三条索道不一次走完。</li><li><b>想增加建筑人文：</b>三塔半日＋古城午餐；偏爱古城小吃则巍山与沙溪二选一。</li><li><b>都喜欢也别都塞：</b>本次最多启用一套替换组合；妆照日和返程日继续留足余量。</li></ul></div>
+<div class="alternatives-grid"><article class="alternative-card" id="alt-fengyangyi"><figure class="alternative-photo"><img src="assets/images/fengyangyi.webp" width="1200" height="800" alt="凤阳邑茶马古道，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>推荐 · 轻松古村</span><a href="https://www.sohu.com/a/775077697_117402" target="_blank" rel="noreferrer" aria-label="查看凤阳邑图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>2–3 小时</span><span>强度：低</span></div><h4>凤阳邑</h4><p class="alternative-description">沿茶马古道逛石巷、老院落和咖啡馆，适合想找“有风”村落氛围的一天。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>米白、棕色、牛仔日常穿搭，拍老墙、门窗、走路与院落休息。</dd></div><div><dt>怎么换</dt><dd>想减少沙溪当天车程，可用凤阳邑半日＋回酒店休息，整天替换 11 月 8 日沙溪。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>古城外围网约车或包车到村外，进入古道后步行；接送点提前约在车辆可到的位置。</p><p><b>提醒：</b>影视院落可能是营业场所，入内、预约与消费分别确认；不要默认所有院落都可免费进入，石板路穿舒适鞋。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E5%A4%A7%E7%90%86%E5%87%A4%E9%98%B3%E9%82%91%E8%8C%B6%E9%A9%AC%E5%8F%A4%E9%81%93&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article><article class="alternative-card" id="alt-zhoucheng"><figure class="alternative-photo"><img src="assets/images/zhoucheng.webp" width="1200" height="800" alt="周城白族扎染，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>推荐 · 三人体验</span><a href="https://www.visityunnanchina.com/experiences-shopping-handicrafts/art-national-intangible-cultural-heritage/bai-tie-dyeing" target="_blank" rel="noreferrer" aria-label="查看周城 · 白族扎染图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>半天</span><span>强度：低</span></div><h4>周城 · 白族扎染</h4><p class="alternative-description">白族村落慢逛，选一间工作坊体验扎染，三人各做一件自己的旅行纪念。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>白色或浅色简洁穿搭，拍制作过程、蓝白布景与完成作品的合照。</dd></div><div><dt>怎么换</dt><dd>推荐替换 11 月 8 日沙溪日，留下下午休息；也可与喜洲重组成一天，但不再保留当天沙溪。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>古城外围出发预约往返车或包车；体验店位置、返程接送点一起确认，不沿洱海廊道骑长途赶课。</p><p><b>提醒：</b>预约前问清作品规格、教学时长、材料、晾干和寄送费用。拍当地居民、师傅先征得同意，避免把体验排在赶车前。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E5%A4%A7%E7%90%86%E5%91%A8%E5%9F%8E%E7%99%BD%E6%97%8F%E6%89%8E%E6%9F%93&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article><article class="alternative-card" id="alt-jizhao"><figure class="alternative-photo"><img src="assets/images/jizhao.webp" width="640" height="480" alt="寂照庵院落，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>备选 · 山林院落</span><a href="https://you.ctrip.com/sight/dalicity1445616/1712848.html" target="_blank" rel="noreferrer" aria-label="查看感通寺＋寂照庵图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>半天</span><span>强度：中低</span></div><h4>感通寺＋寂照庵</h4><p class="alternative-description">山林步道、寺院与植物院落，适合喜欢安静、愿意走一点上坡路的人。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>素雅日常衣服，拍树影、院落细节；宗教活动与禁止拍摄的区域不取景。</dd></div><div><dt>怎么换</dt><dd>可整天替换沙溪：上午山林与院落，下午回酒店。若同日坐索道，需重新核算步行与排队时间。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>网约车至允许停车的山下入口，之后步行；感通寺、寂照庵与感通索道分别核对入口和动线。</p><p><b>提醒：</b>有坡道和台阶，不穿高跟鞋。素斋时段、预约与当天接待情况需另核；到寺院参访穿着得体，不做复杂妆造摆拍。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E5%A4%A7%E7%90%86%E5%AF%82%E7%85%A7%E5%BA%B5&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article><article class="alternative-card" id="alt-cangshan"><figure class="alternative-photo"><img src="assets/images/cangshan.webp" width="1200" height="900" alt="苍山感通索道，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>备选 · 自然风景</span><a href="https://sg.trip.com/travel-guide/attraction/dali-city/gantong-ropeway-24565494/" target="_blank" rel="noreferrer" aria-label="查看苍山索道图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>半天至一天</span><span>强度：依线路</span></div><h4>苍山索道</h4><p class="alternative-description">想补充森林、山景和高处看洱海的体验，可以专门选一天上苍山。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>外套、舒适鞋，拍森林与山景。照片为感通索道风景参考，不代表所有索道的景观与高度。</dd></div><div><dt>怎么换</dt><dd>建议替换沙溪或洱海其中一天。偏轻松先比较感通线路，洗马潭单独预留更完整时间。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>网约车或预约接驳到所订索道下站；感通、中和、洗马潭是不同线路，出发前确认上下站和步行距离。</p><p><b>提醒：</b>不能把三条索道当作同一张票或同一入口。高处更冷，运行受风与天气影响；不承诺 11 月花期、雪景或全线运行。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E5%A4%A7%E7%90%86%E8%8B%8D%E5%B1%B1%E6%84%9F%E9%80%9A%E7%B4%A2%E9%81%93&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article><article class="alternative-card" id="alt-three-pagodas"><figure class="alternative-photo"><img src="assets/images/three-pagodas.webp" width="1080" height="720" alt="崇圣寺三塔，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>备选 · 建筑人文</span><a href="https://dali.yunnan.cn/system/2024/08/26/033201204.shtml" target="_blank" rel="noreferrer" aria-label="查看崇圣寺三塔图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>2–3 小时</span><span>强度：中低</span></div><h4>崇圣寺三塔</h4><p class="alternative-description">看三塔、寺院建筑和园林，适合喜欢历史、对称构图和正式旅行照片的人。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>在允许拍照的区域拍建筑、院落与三人合照，简单穿搭比频繁换装更从容。</dd></div><div><dt>怎么换</dt><dd>可重排为三塔半日＋古城休息，替换沙溪日。不要塞进完整妆照日，也不放返程日。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>古城外围短途网约车至景区入口，内部步行；是否乘景区交通按现场路线和体力决定。</p><p><b>提醒：</b>园区不等于只在门口拍三座塔，内部有步行与台阶；想参观殿堂需再留时间，门票与开放范围以官方公布为准。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E5%A4%A7%E7%90%86%E5%B4%87%E5%9C%A3%E5%AF%BA%E4%B8%89%E5%A1%94%E6%96%87%E5%8C%96%E6%97%85%E6%B8%B8%E5%8C%BA&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article><article class="alternative-card" id="alt-weishan"><figure class="alternative-photo"><img src="assets/images/weishan.webp" width="750" height="1000" alt="巍山古城拱辰楼，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>长线备选 · 人文美食</span><a href="https://gs.ctrip.com/html5/you/sight/weishan2211/1478292.html" target="_blank" rel="noreferrer" aria-label="查看巍山古城图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>完整一天</span><span>强度：中低</span></div><h4>巍山古城</h4><p class="alternative-description">古城街巷、拱辰楼周边与地方小吃，适合把时间花在逛街、吃饭和看建筑的人。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>棕色、米白或日常便装，拍街巷、城楼与吃早餐的生活感。</dd></div><div><dt>怎么换</dt><dd>与沙溪二选一，整天替换 11 月 8 日。两个古城不在同一条短途动线上，不安排同日串联。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>从大理古城预约往返包车较方便；若选择铁路，须把古城至大理站、巍山站至古城接驳一起核对。</p><p><b>提醒：</b>不要只比较火车上的时间而漏算两端接驳。小吃少量分食、看清价格；是否可登楼、开放与收费单独确认。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E5%B7%8D%E5%B1%B1%E5%8F%A4%E5%9F%8E%E6%8B%B1%E8%BE%B0%E6%A5%BC&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article></div>
+          <div class="photo-plan"><p class="eyebrow">PHOTO NOTES · 三个人的照片分工</p><h4>正式妆照在古城，风景日穿自己的衣服。</h4><div class="photo-plan-grid"><p><b>大理古城：</b>11 月 6 日每人一套白族风格妆造，个人照＋三人合照，选衣、化妆、拍摄预留约 5–7 小时。</p><p><b>洱海：</b>奶油色、浅蓝、牛仔日常穿搭，拍散步与骑行；头饰、长裙不要影响骑车。</p><p><b>沙溪 / 凤阳邑：</b>米白、棕色与简单扎染元素，拍古镇生活感，不再加一次完整妆造。</p><p><b>选店：</b>看同一摄影师的真实客片，尤其三人合照；问清传统服饰还是创意改良、精修与原片数量、配饰加价和天气改期。</p></div></div>
+          <p class="alternative-sources">背景资料：<a href="https://www.cnr.cn/yn/rdzt/dlqszn/cyxz/20260815/t20260815_527762949.shtml" target="_blank" rel="noreferrer">凤阳邑与茶马古道 ↗</a><a href="https://www.ynich.cn/item/91.html" target="_blank" rel="noreferrer">周城白族文化与扎染 ↗</a><a href="https://www.dalitravel.cn/content/read/180.html" target="_blank" rel="noreferrer">苍山索道运营方介绍 ↗</a></p>
+        </section>
+        <div class="dali-prep" id="dali-prep">
+          <article><p class="eyebrow">连住四晚</p><h3>住在古城外围</h3><p>选车能到门口、步行约 10–15 分钟可到主街的位置。正规三床房或两间房，预订前核对床型、卫生间和晚到入住安排。</p></article>
+          <article><p class="eyebrow">妆造预约</p><h3>三人套餐逐项写清</h3><p>确认每人的服装、精修与原片数量，以及三人合照、配饰、接送、交付时间和天气改期规则。拍摄当天留足 5–7 小时。</p></article>
+          <article><p class="eyebrow">出发准备</p><h3>按顺序锁定预订</h3><p>先订三人的往返航班及两段动车，再订酒店和妆造。带外套、防晒、保湿用品、舒适鞋与充电宝；雨天可把妆照和洱海日对调。</p></article>
+        </div>
+        <p class="sources-label">出发前，再确认一次</p><div class="source-links dali-sources"><a href="https://www.12306.cn/" target="_blank" rel="noreferrer">铁路 12306 · 核对车站与班次 ↗</a><a href="https://km.ynairport.com/zhjt/5749.jhtml" target="_blank" rel="noreferrer">昆明机场 · 机场交通 ↗</a><a href="https://dali.yunnan.cn/system/2026/01/14/033827162.shtml" target="_blank" rel="noreferrer">云南网 · 沙溪线路交通参考 ↗</a><a href="https://www.ynxc.gov.cn/html/2024/shouyewenrunyunnan_0110/1797.html" target="_blank" rel="noreferrer">沙溪古镇 · 寺登街与玉津桥 ↗</a></div>
       </section>
 
-      <section class="backup-section guide-panel" id="backup" data-panel="prep">
-        <div class="wrapper">
-          <p class="eyebrow">Plan B</p>
-          <h2>下雨、人多、孩子累，<br />都不算行程失败。</h2>
-          <div class="backup-grid">
-            <article><span>天气不好</span><h3>把室外景点换到路氹</h3><p>澳门老城改期；用威尼斯人、巴黎人、伦敦人和酒店休息替代，保持节奏不乱。</p></article>
-            <article><span>港大预约已满</span><h3>保留校园周边与中环</h3><p>以官网临时安排为准；当天可将重心改为中环、天星小轮和维港，避免购买非官方校园团。</p></article>
-            <article><span>迪士尼人流过大</span><h3>演出优先，项目做减法</h3><p>先看时间固定的巡游与演出，再玩低龄项目；大孩子项目由父母轮换，不让全家一起排长队。</p></article>
-            <article><span>幼儿状态不佳</span><h3>午休优先，不补景点</h3><p>回酒店休息后只保留一顿晚餐或附近散步。行程留白，就是给全家共同的缓冲空间。</p></article>
-          </div>
+      <section class="wrapper dali-guide guide-panel" id="lijiang" data-panel="lijiang" role="tabpanel" aria-labelledby="lijiang-tab" hidden>
+        <p class="eyebrow">丽江备选 · 5 天 4 晚 · 3 天完整游玩</p>
+        <div class="split-heading">
+          <h2>古镇里拍照，<br />雪山下发呆。</h2>
+          <p>2026.11.05–11.09｜三位女生，丽江连住四晚。古城妆造、白沙慢游、蓝月谷各用一天。这是一套独立备选，不与大理五天行程叠加。</p>
         </div>
+        <aside class="dali-notice"><strong>先核对交通 · 昆明中转比大理更耗时</strong><p>郑州、福州、宁波往返丽江的指定日期直飞班次仍待核实。有合适直飞可各自到丽江酒店会合；下面按昆明会合、动车往返丽江规划，动车单程按约 3.5–4.5 小时保守预留。5 日可能 23:00–次日 00:00 才入住，9 日需较早离开丽江；若优先交通轻松，大理更合适。</p></aside>
+        <nav class="dali-day-links" aria-label="丽江每日行程导航">
+          <a href="#lijiang-day-1">11.05 · 会合</a><a href="#lijiang-day-2">11.06 · 妆照</a><a href="#lijiang-day-3">11.07 · 白沙</a><a href="#lijiang-day-4">11.08 · 蓝月谷</a><a href="#lijiang-day-5">11.09 · 返程</a><a href="#lijiang-alternatives">更多图文备选 ↗</a><a href="#lijiang-long-trips">长线候补 ↗</a>
+        </nav>
+        <div class="dali-days">
+          <article class="dali-day" id="lijiang-day-1">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/lijiang-town.webp" width="600" height="800" alt="丽江古城街巷，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>抵达 · 丽江古城<a href="https://www.sonnagaya.com/entry/20140212/1392165988" target="_blank" rel="noreferrer" aria-label="查看丽江古城街巷图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>01 / 11 月 5 日 · 周四</span><h3>三地出发，到丽江会合。</h3><p>郑州 / 福州 / 宁波 → 昆明长水机场 → 车票指定车站 → 丽江站 → 酒店</p></div></div>
+            <details class="day-timing" open><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>中午–15:30</dt><dd>三人在昆明机场陆续落地、取行李；先到的人午餐休息。此时间为订票目标，不是已确认的三人航班。</dd></div><div><dt>16:00–17:30</dt><dd>合乘网约车去动车出发站，车程规划预留 60–90 分钟；核对昆明站与昆明南站。</dd></div><div><dt>18:30 以后</dt><dd>若有合适可售动车，乘车至丽江，单程规划按 3.5–4.5 小时。动车与最晚航班落地至少间隔 3.5 小时，并留好途中简餐。</dd></div><div><dt>约 23:00–00:00</dt><dd>丽江站网约车约 30–50 分钟到酒店，具体到达时间随车次调整。提前确认深夜入住与接站，不安排古城夜游。</dd></div></dl></details>
+            <p class="dali-day-note"><b>直飞替代</b> 仅在确认三人各自有合适机票后启用：丽江机场到古城外围约 40–60 分钟，分别接机、酒店会合。若昆明晚间无合适动车，须调整首晚住宿与次日安排，不能默认仍有三个完整游玩日。</p>
+          </article>
+          <article class="dali-day" id="lijiang-day-2">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/lijiang-town.webp" width="600" height="800" alt="丽江古城街巷，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>妆照 · 古城街巷参考<a href="https://www.sonnagaya.com/entry/20140212/1392165988" target="_blank" rel="noreferrer" aria-label="查看丽江古城街巷图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>02 / 11 月 6 日 · 周五</span><h3>睡饱再化妆，拍古城闺蜜照。</h3><p>工作室 → 大研古城街巷 → 四方街周边 → 大水车附近（按实际机位取舍）</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>10:00–11:00</dt><dd>晚到后的恢复时间，睡到自然醒，早餐或早午餐。</dd></div><div><dt>11:00–14:00</dt><dd>步行或短途打车去工作室，选衣、妆造，分批吃简餐。提前确认三人能否并行化妆；若轮流做，提前到店或缩减拍摄场景。</dd></div><div><dt>14:00–17:00</dt><dd>集中在古城一个区域拍摄，先个人照，再拍三人合照。机位由摄影师根据当日光线、人流调整，不跨多个古镇赶场。</dd></div><div><dt>17:00–18:30</dt><dd>还衣服、卸妆、回酒店休息。</dd></div><div><dt>18:30 以后</dt><dd>古城外围晚餐，可选纳西家常菜或腊排骨火锅；有精神再短逛夜景。</dd></div></dl></details>
+            <p class="dali-day-note"><b>妆照风格</b> 优先看纳西风格或民族风旅拍的真实客片；创意造型与当地民族服饰要区分，选自己喜欢的即可。三人同系列不同配色，每人一套造型，留足 5–7 小时，不当天加雪山。</p>
+          </article>
+          <article class="dali-day" id="lijiang-day-3">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/baisha.webp" width="1600" height="1066" alt="白沙古镇与玉龙雪山，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>慢游 · 白沙与雪山远景<a href="https://k.sina.cn/article_6799021963_19540d78b00100s6f7.html" target="_blank" rel="noreferrer" aria-label="查看白沙古镇与玉龙雪山图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>03 / 11 月 7 日 · 周六</span><h3>白沙慢逛，把下午留给咖啡。</h3><p>白沙古镇 → 老街与雪山景观咖啡馆 → 束河古镇（体力好再选）</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>09:30–11:00</dt><dd>慢早餐后打车去白沙，从大研古城外围出发约 30–45 分钟。</dd></div><div><dt>11:00–12:30</dt><dd>白沙老街散步，拍街巷、店门与三人日常穿搭。</dd></div><div><dt>12:30–14:00</dt><dd>白沙午餐，选一家喜欢的咖啡馆坐下来；雪山能见度取决于天气，不保证每个位置都能看见。</dd></div><div><dt>14:00–16:00</dt><dd>继续慢逛或喝咖啡；若想换场，可打车约 15–25 分钟去束河古镇，逛九鼎龙潭附近街巷。</dd></div><div><dt>16:00 以后</dt><dd>打车返回酒店；从白沙或束河返程约 20–45 分钟，按位置和路况调整。晚餐自由安排。</dd></div></dl></details>
+            <p class="dali-day-note"><b>出片重点</b> 奶油色、棕色或牛仔穿搭，古镇街景与天气允许时的雪山远景。束河是可删项；想更悠闲就只留白沙，不再加玉湖村或骑马。</p>
+          </article>
+          <article class="dali-day" id="lijiang-day-4">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/blue-moon.webp" width="800" height="475" alt="蓝月谷，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>山水 · 蓝月谷<a href="https://www.ly.com/scenery/BookSceneryTicket_18844.html" target="_blank" rel="noreferrer" aria-label="查看蓝月谷图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>04 / 11 月 8 日 · 周日</span><h3>甘海子、蓝月谷，留一天看山水。</h3><p>酒店 → 玉龙雪山景区 → 甘海子开放区域 → 蓝月谷 → 酒店</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>08:00–09:30</dt><dd>早餐后预约包车去景区，单程约 50–80 分钟。带保暖外套、防晒、水与舒适鞋。</dd></div><div><dt>09:30–12:00</dt><dd>按门票和景区实际动线游览甘海子开放区域、蓝月谷；乘景区环保车接驳，谷内以步行为主，电瓶车按需要自选。</dd></div><div><dt>12:00–13:00</dt><dd>景区简餐和休息，不赶下一场预约。</dd></div><div><dt>13:00–14:30</dt><dd>湖边选一段慢逛、拍照，按天气和体力提前结束也可以；不要求走完所有湖段。</dd></div><div><dt>14:30–16:00</dt><dd>乘景区接驳车返回约定集合点，包车回酒店休息。</dd></div><div><dt>晚上</dt><dd>酒店附近晚餐、整理行李，次日返程。</dd></div></dl></details>
+            <p class="dali-day-note"><b>预约与海拔</b> 提前通过“玉龙雪山服务”等官方入口核对门票、环保车及开放情况；默认不含冰川公园大索道。若想坐索道，需要另核票源并重排当天，不能直接叠加。避免剧烈活动，身体不适时停止上行并及时求助；恶劣天气改为束河慢逛、咖啡馆休息。</p>
+          </article>
+          <article class="dali-day" id="lijiang-day-5">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/baisha.webp" width="1600" height="1066" alt="白沙古镇与玉龙雪山，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>再会 · 雪山下的旧时光<a href="https://k.sina.cn/article_6799021963_19540d78b00100s6f7.html" target="_blank" rel="noreferrer" aria-label="查看白沙古镇与玉龙雪山图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>05 / 11 月 9 日 · 周一</span><h3>早餐后返昆明，晚班机各自回家。</h3><p>酒店 → 丽江站 → 昆明站 / 昆明南站 → 长水机场 → 郑州 / 福州 / 宁波</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>07:30–08:30</dt><dd>早餐、检查行李、退房。昆明返程版本不安排上午远郊或付费拍摄。</dd></div><div><dt>08:30–09:30</dt><dd>网约车到丽江站，车程约 30–50 分钟，预留安检候车时间。</dd></div><div><dt>约 10:00 出发</dt><dd>选择回昆明的动车，目标 14:30 前到达；规划按 3.5–4.5 小时，须先核实实际车次和到达站。</dd></div><div><dt>14:30–16:30</dt><dd>合乘网约车到长水机场，按 90–120 分钟预留出站、候车与路况缓冲。</dd></div><div><dt>19:00 以后</dt><dd>分别搭乘晚班机，优先选择 20:00 左右起飞的班次，至少提前 2 小时到机场。若航班更早或动车到达更晚，必须相应提前离开丽江。</dd></div></dl></details>
+            <p class="dali-day-note"><b>若确认从丽江直飞返程</b> 可取消昆明段动车，上午增加酒店附近早餐、古城短逛，按各自航班倒排。机场车程约 40–60 分钟，加上提前至少 2 小时到机场的时间；直飞可售班次仍需核实。</p>
+          </article>
+        </div>
+        <section class="alternatives-section" id="lijiang-alternatives" aria-labelledby="lijiang-alternatives-title">
+          <header class="alternatives-heading"><p class="eyebrow">LIJIANG · ANOTHER WAY TO SPEND THE DAY</p><h3 id="lijiang-alternatives-title">丽江，按心情换一种过法。</h3><p>同样保留三个完整游玩日。半天候选可重新组合，远郊与索道要整体重排。时长不含往返交通，天气、预约和体力都会影响安排。</p></header>
+          <div class="alternatives-advice"><strong>怎么选更适合你们</strong><ul><li><b>优先推荐玉湖村：</b>11 月 7 日用白沙＋玉湖村替换白沙＋可选束河；想更悠闲就只挑一个古村。</li><li><b>少坐车版本：</b>黑龙潭＋木府＋午休，重排为市区慢游日；雨天也要核开放，不能当作全天室内路线。</li><li><b>想拍森林：</b>11 月 8 日改云杉坪＋蓝月谷，先核索道票，删减原景区停留，不加冰川公园大索道。</li><li><b>早餐顺便逛：</b>忠义市场当一顿早饭；狮子山只在愿意爬台阶、有体力时加，不压缩妆照时间。</li></ul></div>
+<div class="alternatives-grid"><article class="alternative-card" id="alt-yuhu"><figure class="alternative-photo"><img src="assets/images/yuhu.webp" width="750" height="500" alt="玉湖村石头院落，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>推荐 · 石头古村</span><a href="https://go.ly.com/travels/1047949.html" target="_blank" rel="noreferrer" aria-label="查看玉湖村图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>半天</span><span>强度：中低</span></div><h4>玉湖村</h4><p class="alternative-description">石头民居、巷道与天气允许时的雪山远景，给照片增加古村和自然的质感。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>米白、棕色、牛仔都合适，以自然纪实为主，不另做一轮复杂妆造。</dd></div><div><dt>怎么换</dt><dd>11 月 7 日改为白沙＋玉湖村，取消束河；想更悠闲则只选白沙或玉湖一个。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>从大研古城外围预约包车或网约车往返；村内以步行为主，石头路不适合高跟鞋。</p><p><b>提醒：</b>雪山能见度不保证；骑马不是逛村前提，如要体验需核路线、费用和防护。洛克故居等单独场馆另核开放与门票。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E4%B8%BD%E6%B1%9F%E7%8E%89%E6%B9%96%E6%9D%91&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article><article class="alternative-card" id="alt-black-dragon"><figure class="alternative-photo"><img src="assets/images/black-dragon.webp" width="640" height="480" alt="黑龙潭园林与雪山，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>推荐 · 轻松散步</span><a href="https://www.passingcloud.cn/bxys/index.php?act=news_detail&con=pc&id=103" target="_blank" rel="noreferrer" aria-label="查看黑龙潭公园图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>1.5–2 小时</span><span>强度：低</span></div><h4>黑龙潭公园</h4><p class="alternative-description">湖水、桥亭与园林，晴朗通透且水面平静时可寻找雪山倒影。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>简洁便装拍园林人像、桥亭与水面，阴天就拍树影和建筑，不只盯着雪山机位。</dd></div><div><dt>怎么换</dt><dd>想少坐车时，可用黑龙潭＋古城午餐替换白沙日的一部分，或重排为黑龙潭＋木府的市区慢游日。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>古城外围短途网约车，或按住宿位置选择步行；不需要为这一项单独包一天车。</p><p><b>提醒：</b>倒影受风、水面和能见度影响，不能保证。门票、古城相关票证及当日入园要求按官方确认，不套用旧攻略价格。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E4%B8%BD%E6%B1%9F%E9%BB%91%E9%BE%99%E6%BD%AD%E5%85%AC%E5%9B%AD&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article><article class="alternative-card" id="alt-mufu"><figure class="alternative-photo"><img src="assets/images/mufu.webp" width="750" height="1000" alt="丽江木府，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>备选 · 历史院落</span><a href="https://you.ctrip.com/sight/lijiang32/12325.html" target="_blank" rel="noreferrer" aria-label="查看木府图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>1.5–2 小时</span><span>强度：中低</span></div><h4>木府</h4><p class="alternative-description">了解纳西土司历史，逛建筑和院落，适合人文兴趣比打卡数量更重要的旅行。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>普通穿搭拍院落、屋檐和建筑细节，摄影范围以现场规定为准。</dd></div><div><dt>怎么换</dt><dd>可与黑龙潭重排成一天，替换白沙日；如与古城妆照合并，必须先缩减拍摄时长或场景。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>木府在古城内，步行到达；车停古城外围，不要求司机开到府门口。</p><p><b>提醒：</b>参观殿堂、跟讲解需要时间；部分区域有台阶，雨天也不是全程室内。营业与门票需复核。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E4%B8%BD%E6%B1%9F%E6%9C%A8%E5%BA%9C&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article><article class="alternative-card" id="alt-lion-hill"><figure class="alternative-photo"><img src="assets/images/lion-hill.webp" width="1200" height="675" alt="丽江狮子山与古城全景，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>备选 · 古城全景</span><a href="https://www.chengduprivatetour.com/tours/show/5-days-enchanting-lijiang-and-shangri-la-tours-to-yunnan-province.htm" target="_blank" rel="noreferrer" aria-label="查看狮子山 · 万古楼周边图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>1–2 小时</span><span>强度：中</span></div><h4>狮子山 · 万古楼周边</h4><p class="alternative-description">从高处看古城屋顶与街巷层次，适合喜欢建筑全景、愿意爬台阶的人。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>屋顶全景与环境人像，穿防滑鞋；不去屋顶边缘或翻越护栏找机位。</dd></div><div><dt>怎么换</dt><dd>替换古城的一段自由闲逛即可；拍摄日若穿长裙或体力不足就不加，不能同时把全部古城景点塞满。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>从古城内步行上坡；根据酒店位置规划上山和下山方向，出租车不能替代最后一段登高步行。</p><p><b>提醒：</b>有坡道台阶，万古楼、其他观景台与咖啡馆并非同一收费项目。傍晚游览先核关闭时间，不保证夜间都能登楼。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E4%B8%BD%E6%B1%9F%E7%8B%AE%E5%AD%90%E5%B1%B1%E4%B8%87%E5%8F%A4%E6%A5%BC&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article><article class="alternative-card" id="alt-zhongyi"><figure class="alternative-photo"><img src="assets/images/zhongyi.webp" width="1000" height="666" alt="忠义市场早市，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>备选 · 早餐烟火气</span><a href="https://www.lijiang.cn/article/145146.html" target="_blank" rel="noreferrer" aria-label="查看忠义市场图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>约 1 小时</span><span>强度：低</span></div><h4>忠义市场</h4><p class="alternative-description">吃早餐、逛蔬果和小吃摊，感受本地日常，把它当一次早饭就很合适。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>便装拍食物、摊位和走逛的生活照；拍摊主或居民先征得同意。</dd></div><div><dt>怎么换</dt><dd>优先放 11 月 7 日早餐后再去白沙；如前一晚晚到，11 月 6 日仍保留睡到自然醒，不硬赶早市。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>按住宿位置步行，或网约车到古城南侧外围再走进去。市场日常早市与夜间消费场景分别核对。</p><p><b>提醒：</b>看清称重和价格，零食少量分食；不堵摊位通道拍照，不把采购大量易坏食物排在跨城返程前。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E4%B8%BD%E6%B1%9F%E5%BF%A0%E4%B9%89%E5%B8%82%E5%9C%BA&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article><article class="alternative-card" id="alt-yunshanping"><figure class="alternative-photo"><img src="assets/images/yunshanping.webp" width="640" height="480" alt="云杉坪草甸与森林，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>备选 · 森林草甸</span><a href="https://you.ctrip.com/sight/yulong1446279/12467.html" target="_blank" rel="noreferrer" aria-label="查看云杉坪图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>约半天</span><span>强度：中低</span></div><h4>云杉坪</h4><p class="alternative-description">雪山景区里的森林、草甸与栈道，适合更喜欢森林氛围的人。时长需另计排队与接驳波动。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>保暖外套和舒适鞋，拍树影、栈道与草甸边缘；11 月草色以实际为准，不承诺照片中的夏季绿。</dd></div><div><dt>怎么换</dt><dd>重排 11 月 8 日为云杉坪＋蓝月谷，删减甘海子停留，给接驳、午餐留时间；不再加冰川公园大索道。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>酒店包车至雪山景区，再按预约乘环保车、云杉坪索道，景内步行；索道票源需先核实。</p><p><b>提醒：</b>景区门票、环保车和索道需分清。运行受天气影响，高海拔不剧烈活动；如天气差，改为市区慢游。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E4%B8%BD%E6%B1%9F%E7%8E%89%E9%BE%99%E9%9B%AA%E5%B1%B1%E4%BA%91%E6%9D%89%E5%9D%AA&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article></div>
+          <div class="photo-plan"><p class="eyebrow">PHOTO NOTES · 古城与古村拍出不同感觉</p><h4>一套正式妆照，搭配两天自然穿搭。</h4><div class="photo-plan-grid"><p><b>丽江古城：</b>正式民族风妆照选一个集中区域，纳西风格与创意民族风看客片区分；不跨古城、白沙、雪山三个场景赶拍。</p><p><b>白沙 / 玉湖：</b>米白、棕色、牛仔，拍石巷、古村与天气允许时的雪山远景。三人互动比反复换造型更省时。</p><p><b>黑龙潭 / 木府：</b>日常衣服拍园林、建筑与三人合照，场馆内按规定取景。</p><p><b>雪山 / 云杉坪：</b>保暖、防滑和步行方便优先，发型与衣服不要影响活动；不给复杂妆造再加一次排队负担。</p></div></div>
+          <header class="alternatives-heading long-trip-heading" id="lijiang-long-trips"><p class="eyebrow">LONGER ESCAPES · 需要重排的长线</p><h3>泸沽湖与虎跳峡，也先收进备选。</h3><p>喜欢就用它替换原来的整天行程。泸沽湖需要改住宿；虎跳峡观景和徒步不是同一玩法，不能把两者都当作半日轻松游。</p></header>
+<div class="alternatives-grid"><article class="alternative-card" id="alt-lugu"><figure class="alternative-photo"><img src="assets/images/lugu.webp" width="1200" height="798" alt="泸沽湖里格半岛风景，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>重排型 · 至少两天一晚</span><a href="https://dp.pconline.com.cn/dphoto/3540876.html" target="_blank" rel="noreferrer" aria-label="查看泸沽湖图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>两天一晚起</span><span>强度：车程较长</span></div><h4>泸沽湖</h4><p class="alternative-description">湖岸、村落与观景台适合慢住，但往返山路会占去较多时间，不能作为古城日的顺路项目。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>湖边自然穿搭、观景台与村落生活感；不把花期、水色或特定日出效果当作保证。</dd></div><div><dt>怎么换</dt><dd>若坚持 5 天：11 月 6 日妆照，7 日去湖边并住一晚，8 日返回丽江，替换白沙和雪山两天；丽江不再四晚连住。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>预约合规长途包车、班车或正规两日游，核实当日路况、接送点和实际耗时；湖边需要一晚住宿。</p><p><b>提醒：</b>11 月 8 日须留出回丽江的缓冲，不能住湖边直接赶 9 日昆明航班。船游单独核费用、天气与救生措施；住哪一岸先确认。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E6%B3%B8%E6%B2%BD%E6%B9%96%E9%87%8C%E6%A0%BC%E8%A7%82%E6%99%AF%E5%8F%B0&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article><article class="alternative-card" id="alt-tiger-gorge"><figure class="alternative-photo"><img src="assets/images/tiger-gorge.webp" width="750" height="562" alt="上虎跳峡观景台，备选景点风景参考" loading="lazy" decoding="async" /><figcaption><span>重排型 · 单独一天</span><a href="https://gs.ctrip.com/html5/you/sight/shangri-la106/69342535.html" target="_blank" rel="noreferrer" aria-label="查看虎跳峡 · 观景版图片来源">图片来源 ↗</a></figcaption></figure><div class="alternative-body"><div class="alternative-meta"><span>完整一天</span><span>强度：依动线</span></div><h4>虎跳峡 · 观景版</h4><p class="alternative-description">看金沙江峡谷与观景平台，喜欢壮阔自然景观的人可以考虑，休闲观景与长线徒步需分开。</p><dl class="alternative-facts"><div><dt>怎么拍</dt><dd>运动休闲穿搭，拍峡谷与平台环境照；不为拍照靠近急流、翻越围栏或离开开放步道。</dd></div><div><dt>怎么换</dt><dd>整体替换 11 月 7 日白沙日或 8 日雪山日；保留妆照的情况下，不再叠加另一条远郊线。</dd></div></dl><details class="alternative-detail"><summary>交通与游玩提醒 <span aria-hidden="true">＋</span></summary><p><b>交通：</b>预约往返包车或正规一日游，出发前确定是香格里拉一侧上虎跳景区还是丽江虎跳峡，导航、票务和开放公告不能混用。</p><p><b>提醒：</b>高路徒步、下到中虎跳不是同等强度的观景玩法，需另做装备、体能和天气评估。看当日落石、雨情及景区公告，不沿未开放小路走。</p><a class="alternative-map" href="https://uri.amap.com/search?keyword=%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E8%99%8E%E8%B7%B3%E5%B3%A1%E6%99%AF%E5%8C%BA&amp;view=map&amp;callnative=1" target="_blank" rel="noreferrer">高德地图 · 查看位置 ↗</a></details></div></article></div>
+          <p class="alternative-sources">背景资料：<a href="https://www.lijiang.cn/article/176141.html" target="_blank" rel="noreferrer">玉湖村石头院落与慢生活 ↗</a><a href="https://www.lijiang.cn/article/145146.html" target="_blank" rel="noreferrer">忠义市场日常 ↗</a><a href="https://www.lijiang.cn/article/172717.html" target="_blank" rel="noreferrer">玉龙雪山票务说明 ↗</a><a href="https://www.xgllhtx.cn/" target="_blank" rel="noreferrer">香格里拉虎跳峡官方公告 ↗</a><a href="https://www.lijiang.cn/article/181895.html" target="_blank" rel="noreferrer">丽江虎跳峡介绍 ↗</a></p>
+        </section>
+        <div class="dali-prep" id="lijiang-prep">
+          <article><p class="eyebrow">住宿建议</p><h3>古城外围连住四晚</h3><p>优先选车辆能到门口、远离酒吧噪声的位置，方便深夜抵达、工作室接送和出发去车站。三床房或两间房都要核对实际床型。</p></article>
+          <article><p class="eyebrow">旅拍预订</p><h3>个人照与闺蜜照都写清</h3><p>确认三人的妆造完成时间、服装配饰、个人精修与合照数量、原片交付、外景接送、加价项目和天气改期规则。看实际客片再选造型。</p></article>
+          <article><p class="eyebrow">两地怎么选</p><h3>湖边度假，或古镇雪山</h3><p>偏爱洱海、沙溪选大理；偏爱民族风妆照、白沙与雪山风景选丽江。经昆明往返时，丽江的首末日转场更长；先锁定交通，再预订酒店与拍摄。</p></article>
+        </div>
+        <p class="sources-label">出发前，再确认一次</p><div class="source-links dali-sources"><a href="https://www.12306.cn/" target="_blank" rel="noreferrer">铁路 12306 · 核实动车与到达站 ↗</a><a href="https://www.lijiang.cn/article/172717.html" target="_blank" rel="noreferrer">玉龙雪山 · 景区票务说明 ↗</a><a href="https://www.ljw.e.lijiang.cn/article/180993.html" target="_blank" rel="noreferrer">玉龙雪山 · 官方预约入口说明 ↗</a><a href="https://culture.yunnan.cn/system/2024/05/20/033061720.shtml" target="_blank" rel="noreferrer">云南网 · 白沙古镇介绍 ↗</a></div>
       </section>
 
-      <section class="packing guide-panel" id="packing" data-panel="prep">
-        <div class="wrapper packing-inner">
-          <div>
-            <p class="eyebrow">出发前一周</p>
-            <h2>轻装上阵，<br />但别漏掉这些。</h2>
-          </div>
-          <ul>
-            <li><span>✓</span> 港澳通行证、有效签注、儿童证件</li>
-            <li><span>✓</span> 港币少量现金、境外流量/eSIM、充电宝</li>
-            <li><span>✓</span> 折叠推车、薄外套、防晒与雨具</li>
-            <li><span>✓</span> 儿童常用药、湿巾、零食和水杯</li>
-          </ul>
+      <section class="wrapper dali-guide guide-panel" id="banna" data-panel="banna" role="tabpanel" aria-labelledby="banna-tab" hidden>
+        <p class="eyebrow">西双版纳备选 · 5 天 4 晚 · 3 天完整游玩</p>
+        <div class="split-heading">
+          <h2>穿上傣装，<br />去热带慢慢玩。</h2>
+          <p>2026.11.05–11.09｜三位女生，景洪连住四晚。傣装旅拍、市区园林、热带植物各用一天，每天留出休息时间。三套方案择一，不跨城叠加。</p>
         </div>
+        <aside class="dali-notice"><strong>机票待核实 · 有合适直飞更适合休闲游</strong><p>郑州、福州、宁波往返西双版纳的 11 月 5 日、9 日航班尚未查询核实，不能默认三地均有直飞。若有合适航班，在景洪酒店会合；下列同时列出昆明会合、动车往返的备选。动车单程按约 3–4 小时规划，以实际车票为准；经昆明时，首日可能深夜入住、末日上午主要用于返程。</p></aside>
+        <nav class="dali-day-links" aria-label="西双版纳每日行程导航">
+          <a href="#banna-day-1">11.05 · 会合</a><a href="#banna-day-2">11.06 · 傣装</a><a href="#banna-day-3">11.07 · 曼听</a><a href="#banna-day-4">11.08 · 植物园</a><a href="#banna-day-5">11.09 · 返程</a>
+        </nav>
+        <div class="dali-days">
+          <article class="dali-day" id="banna-day-1">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/night-market.webp" width="640" height="427" alt="星光夜市，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>抵达 · 景洪的夜色<a href="https://www.sohu.com/a/481537712_111399" target="_blank" rel="noreferrer" aria-label="查看星光夜市图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>01 / 11 月 5 日 · 周四</span><h3>到景洪会合，先住下来。</h3><p>直达方案：各自出发地 → 西双版纳嘎洒机场 → 酒店；备选：昆明机场 → 动车出发站 → 西双版纳站 → 酒店</p></div></div>
+            <details class="day-timing" open><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>直飞若可落实</dt><dd>各自落地后网约车到景洪市区或告庄周边酒店，约 20–40 分钟。三人按最晚抵达时间会合，先到的人午餐休息。</dd></div><div><dt>昆明中转备选</dt><dd>以三人约 15:30 前抵达昆明为规划目标。会合、取行李后乘车至车票指定的昆明站或昆明南站，机场至车站按 60–90 分钟预留。</dd></div><div><dt>18:30 以后</dt><dd>若有合适可售动车，乘车约 3–4 小时到西双版纳站。动车与最晚航班落地至少间隔 3.5 小时，出发前准备简餐。</dd></div><div><dt>约 22:00–00:00</dt><dd>按实际车次到站、取行李后，网约车约 20–40 分钟至酒店，提前确认晚到入住；不约当晚旅拍。</dd></div><div><dt>仅限较早入住</dt><dd>休息后到告庄西双景吃晚饭、星光夜市短逛，看看想拍的场景。晚到就直接休息，夜市留给第二天。</dd></div></dl></details>
+            <p class="dali-day-note"><b>交通边界</b> 西双版纳站才是本方案的景洪接驳站，不要误买其他站。若昆明落地晚、没有合适动车，必须调整首晚住宿与次日安排，不能继续按三个完整游玩日计算。</p>
+          </article>
+          <article class="dali-day" id="banna-day-2">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/night-market.webp" width="640" height="427" alt="星光夜市，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>傣装 · 夜景旅拍场景参考<a href="https://www.sohu.com/a/481537712_111399" target="_blank" rel="noreferrer" aria-label="查看星光夜市图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>02 / 11 月 6 日 · 周五</span><h3>傣装妆照，把傍晚留给闺蜜合影。</h3><p>工作室 → 告庄西双景可拍区域 → 星光夜市周边（依拍摄许可、人流与天气取舍）</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>10:00–12:00</dt><dd>慢早餐、酒店休息。前一天晚到，不安排早起打卡。</dd></div><div><dt>12:00–13:00</dt><dd>午餐后网约车至工作室，市区短途交通按约 10–30 分钟预留。</dd></div><div><dt>13:00–16:00</dt><dd>选服装、傣装妆造，每人一套。提前确认能否并行化妆以及三人全部完成的时间。</dd></div><div><dt>16:00–19:00</dt><dd>按实际日落时间和光线安排个人照、三人合照；先拍白天与傍晚，天色转暗后在同一片区补夜景，不跨区赶场。</dd></div><div><dt>19:00 以后</dt><dd>还衣服、卸妆，附近吃晚饭；夜市按状态短逛，网约车回酒店。人多时到约定上车点会合。</dd></div></dl></details>
+            <p class="dali-day-note"><b>出片重点</b> 三人同系列不同颜色的傣装，保留个人照和完整闺蜜合照。看真实客片区分当地傣装与创意东南亚造型，预留 5–7 小时；天气差优先改期，不把同一天再排成景点游。</p>
+          </article>
+          <article class="dali-day" id="banna-day-3">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/manting.webp" width="1200" height="1200" alt="曼听御花园，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>园林 · 曼听御花园<a href="https://hk.trip.com/moments/detail/jinghong-2154-126210086/" target="_blank" rel="noreferrer" aria-label="查看曼听御花园图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>03 / 11 月 7 日 · 周六</span><h3>曼听与总佛寺，午后回酒店。</h3><p>酒店 → 曼听御花园 → 总佛寺 → 午餐 → 酒店休息</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>09:00–10:00</dt><dd>早餐后网约车至曼听御花园，市区出发约 15–30 分钟。</dd></div><div><dt>10:00–12:00</dt><dd>园内按步行短线逛园林、建筑与水边景观，拍自己的日常穿搭。入园、开放范围与门票以当天官方信息为准。</dd></div><div><dt>12:00–13:00</dt><dd>按现场出入口与开放情况前往相邻的总佛寺。穿遮肩、过膝衣物，遵守脱鞋和拍摄提示；不在礼佛区域摆拍、不拍摄不允许拍照的位置。</dd></div><div><dt>13:00–14:00</dt><dd>附近午餐，可选香茅草烤鱼、菠萝饭等，按口味点菜。</dd></div><div><dt>14:00–17:00</dt><dd>网约车回酒店午休、喝咖啡。想补照片可在酒店允许拍照的公共区域随拍。</dd></div><div><dt>晚上</dt><dd>市区晚餐或江边短距离散步，不再加远郊景点和演出。</dd></div></dl></details>
+            <p class="dali-day-note"><b>轻松出片</b> 选透气、方便步行的衣服，拍园林与建筑。寺院参访以礼仪和现场管理为先；昨天的付费妆造不重复安排，给皮肤和体力留休息时间。</p>
+          </article>
+          <article class="dali-day" id="banna-day-4">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/palms.webp" width="640" height="480" alt="西双版纳热带植物园，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>热带 · 棕榈与树影<a href="https://travel.qunar.com/p-pl5973376" target="_blank" rel="noreferrer" aria-label="查看西双版纳热带植物园图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>04 / 11 月 8 日 · 周日</span><h3>热带植物园，只逛西区。</h3><p>景洪酒店 → 勐仑中科院西双版纳热带植物园西区 → 酒店</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>08:30–10:00</dt><dd>早餐后预约合规包车前往植物园，单程按约 1–1.5 小时预留，具体依酒店位置和路况调整。</dd></div><div><dt>10:00–12:00</dt><dd>核对门票与西区观光车票，按园区当天线路游览棕榈、榕树等植物景观，观光车结合短段步行，不走遍全园。</dd></div><div><dt>12:00–13:00</dt><dd>园内简餐、补水、找阴凉处休息。带水与少量零食，不为拍照跳过午饭。</dd></div><div><dt>13:00–15:00</dt><dd>继续西区慢游，选开放且允许拍照的园路、树影与植物背景拍自然合照，累了提前结束。</dd></div><div><dt>15:00–16:30</dt><dd>按约定集合点乘包车回景洪酒店。</dd></div><div><dt>晚上</dt><dd>酒店附近吃傣味晚餐、整理行李。早休息，为次日返程留体力。</dd></div></dl></details>
+            <p class="dali-day-note"><b>出片与取舍</b> 白色、米色、浅绿色穿搭搭配热带植物，穿舒适鞋并备防晒、雨具与驱蚊用品。不保证 11 月王莲状态或特定花期，不踩踏植物、不上王莲摆拍；不加东区长线、野象谷或傣族园。</p>
+          </article>
+          <article class="dali-day" id="banna-day-5">
+            <div class="day-story"><figure class="day-photo"><img src="assets/images/palms.webp" width="640" height="480" alt="西双版纳热带植物园，用于当天景点或拍摄场景参考" loading="lazy" decoding="async" /><figcaption>再会 · 热带的慢时光<a href="https://travel.qunar.com/p-pl5973376" target="_blank" rel="noreferrer" aria-label="查看西双版纳热带植物园图片来源">图片来源 ↗</a></figcaption></figure><div class="dali-day-heading"><span>05 / 11 月 9 日 · 周一</span><h3>慢早餐后，按航班各自返程。</h3><p>直飞若可落实：酒店 → 嘎洒机场；昆明备选：酒店 → 西双版纳站 → 昆明站 / 昆明南站 → 长水机场</p></div></div>
+            <details class="day-timing"><summary><span>查看当天时间安排与交通</span><span class="details-indicator" aria-hidden="true">＋</span></summary><dl class="dali-schedule"><div><dt>若从版纳晚班直飞</dt><dd>09:00 后慢早餐，酒店附近散步、买少量水果或伴手礼，中午退房后寄存行李。下午在附近咖啡馆休息，不安排远郊游览。</dd></div><div><dt>直飞送机</dt><dd>酒店至机场约 20–40 分钟，高峰另加缓冲；按各自航班倒排，至少提前 2 小时到机场。出发时间较早的人先送机，不要求三人一起等到最后。</dd></div><div><dt>经昆明：08:00–09:30</dt><dd>早餐、退房，网约车约 20–40 分钟至西双版纳站，预留安检候车时间；取消上午游览。</dd></div><div><dt>经昆明：约 10:00</dt><dd>选择动车回昆明，单程按约 3–4 小时规划，目标 14:30 前到站。具体出发时间与到达站必须以实际车票确认。</dd></div><div><dt>经昆明：14:30–16:30</dt><dd>出站后合乘网约车至长水机场，按 90–120 分钟预留候车与交通缓冲。</dd></div><div><dt>经昆明：19:00 以后</dt><dd>选择已核实可售的晚班返程航班，优先 20:00 左右起飞，至少提前 2 小时到机场；航班更早就提前坐动车，不能压缩机场缓冲。</dd></div></dl></details>
+            <p class="dali-day-note"><b>晚点回程的前提</b> 只有确认从嘎洒机场直飞且起飞较晚，才能保留完整休闲上午。若需坐动车回昆明，末日以交通为主；三人的方案可以不同，分别核对中转余量。</p>
+          </article>
+        </div>
+        <div class="dali-prep" id="banna-prep">
+          <article><p class="eyebrow">住宿建议</p><h3>景洪连住，夜市外围更安静</h3><p>优先告庄外围或景洪市区正规酒店，核对隔音、车辆接送点、三床房或两间房床型。避开夜市摊位和酒吧正上方，晚到提前联系酒店。</p></article>
+          <article><p class="eyebrow">妆造预约</p><h3>傣装个人照＋三人合照</h3><p>明确三人化妆师配置、服装配饰、拍摄时长、个人精修与合照数量、原片、夜景是否另收费，以及选片加价、交付和雨天改期规则。</p></article>
+          <article><p class="eyebrow">三套怎么选</p><h3>热带风、湖景、雪山</h3><p>傣装与热带植物选版纳，洱海和沙溪选大理，白沙与雪山选丽江。版纳这版只有植物园一天远郊出行；直飞机票合适时，首末日更容易安排休闲活动。</p></article>
+        </div>
+        <p class="sources-label">出发前，再确认一次</p><div class="source-links dali-sources"><a href="https://www.12306.cn/" target="_blank" rel="noreferrer">铁路 12306 · 核对西双版纳站与班次 ↗</a><a href="https://xtbg.cas.cn/2022/ykfw/" target="_blank" rel="noreferrer">中科院热带植物园 · 游客服务 ↗</a><a href="https://cpc.people.com.cn/BIG5/n1/2024/0815/c64387-40299133.html" target="_blank" rel="noreferrer">人民日报 · 星光夜市与民族服饰旅拍 ↗</a></div>
       </section>
 
-      <section class="wrapper sources guide-panel" data-panel="prep">
-        <p class="eyebrow">出行前复核</p>
-        <h2>官方信息入口</h2>
-        <div class="source-links">
-          <a href="https://www.hku.hk/en/campus-life/visit-hku" target="_blank" rel="noreferrer">香港大学访客安排 <span>↗</span></a>
-          <a href="https://www.hongkongdisneyland.com/zh-hk/calendars/" target="_blank" rel="noreferrer">香港迪士尼日历 <span>↗</span></a>
-          <a href="https://www.sb.gov.hk/chi/bwt/status.html" target="_blank" rel="noreferrer">香港口岸通关状态 <span>↗</span></a>
-          <a href="https://tripplanner.macaotourism.gov.mo/zh-hans" target="_blank" rel="noreferrer">澳门智能行程规划 <span>↗</span></a>
-        </div>
-      </section>
     </main>
 
+    <p class="photo-disclaimer wrapper">影像说明：照片为目的地风景与旅拍场景参考，来自标注的原始页面；季节、天气、植被和现场光线以实际为准。拍摄人物与本次出行成员无关。</p>
     <footer>
       <span>JING · LING TRIP</span>
-      <span>为一家人留住一起出发的时间</span>
+      <span>为我们留住一起出发的时间</span>
     </footer>
     <script src="script.js"></script>
   </body>
